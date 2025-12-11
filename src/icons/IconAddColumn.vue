@@ -1,0 +1,15 @@
+<template>
+  <IconBase>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 17h3m0 0h3m-3 0v-3m0 3v3m6 1h1a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v6"/>
+  </IconBase>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import IconBase from '../components/IconBase.vue'
+
+export default defineComponent({
+  name: 'IconAddColumn',
+  components: { IconBase }
+})
+</script>

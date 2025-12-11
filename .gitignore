@@ -2,7 +2,3 @@ node_modules
 dist
 .env
 .vscode
-
-# Generated icons (will be regenerated on build)
-src/icons/*.vue
-!src/icons/IconPlaceholder.vue

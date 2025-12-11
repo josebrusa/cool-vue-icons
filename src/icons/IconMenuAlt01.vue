@@ -1,0 +1,15 @@
+<template>
+  <IconBase>
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 17h7M5 12h14M5 7h14"/>
+  </IconBase>
+</template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+import IconBase from '../components/IconBase.vue'
+
+export default defineComponent({
+  name: 'IconMenuAlt01',
+  components: { IconBase }
+})
+</script>

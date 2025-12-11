@@ -1,9 +1,17 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import dts from 'vite-plugin-dts'
 import path from 'path'
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [
+    vue(),
+    dts({
+      insertTypesEntry: true,
+      include: ['src/**/*'],
+      exclude: ['src/**/*.spec.ts', 'src/**/*.test.ts']
+    })
+  ],
   build: {
     // Target para soportar navegadores más antiguos
     // Opciones disponibles:

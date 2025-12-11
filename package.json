@@ -1,12 +1,21 @@
 {
   "name": "icons-cool-vue",
   "version": "0.1.0",
-  "description": "Biblioteca de iconos como componentes Vue (Vue 3 + TypeScript)",
-  "main": "dist/index.cjs.js",
+  "description": "Biblioteca de iconos como componentes Vue (Vue 3 + TypeScript). Iconos basados en coolicons por Kryston Schwarze.",
+  "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./*": "./src/icons/*.vue"
+  },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "generate:icons": "node ./scripts/generate-icons.js",
@@ -26,7 +35,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/josebrusa/icons-cool-vue.git"
+    "url": "https://github.com/JoseBrusa25/icons-cool-vue.git"
+  },
+  "homepage": "https://github.com/JoseBrusa25/icons-cool-vue#readme",
+  "bugs": {
+    "url": "https://github.com/JoseBrusa25/icons-cool-vue/issues"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
@@ -36,6 +49,7 @@
     "svgo": "^3.3.2",
     "typescript": "^5.4.0",
     "vite": "^7.0.0",
+    "vite-plugin-dts": "^4.5.4",
     "vitest": "^3.2.0",
     "vue": "^3.4.0"
   },
