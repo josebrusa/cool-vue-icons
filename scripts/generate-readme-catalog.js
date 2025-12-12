@@ -74,20 +74,37 @@ categories.forEach(category => {
   // Convert category name to lowercase for anchor ID
   const anchorId = category.toLowerCase()
   catalogSection += `<h3 id="${anchorId}">${category} (${icons.length} iconos)</h3>\n\n`
-  catalogSection += `<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; margin-bottom: 30px;">\n\n`
   
-  icons.forEach(icon => {
-    catalogSection += `<div style="display: flex; align-items: center; gap: 10px; padding: 8px 12px; border: 1px solid #e0e0e0; border-radius: 6px; background: #fafafa; font-size: 0.875em;">\n`
-    catalogSection += `<div style="flex-shrink: 0; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center;">\n`
-    catalogSection += `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block;" stroke="currentColor" stroke-width="2">\n`
-    catalogSection += `${icon.svgContent}\n`
-    catalogSection += `</svg>\n`
-    catalogSection += `</div>\n`
-    catalogSection += `<div style="font-family: 'Monaco', 'Menlo', 'Courier New', monospace; color: #2c3e50; font-weight: 500; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${icon.componentName}</div>\n`
-    catalogSection += `</div>\n\n`
-  })
+  // Use HTML table for GitHub compatibility (3 columns)
+  catalogSection += `<table>\n<tbody>\n`
   
-  catalogSection += `</div>\n\n`
+  // Process icons in rows of 3
+  for (let i = 0; i < icons.length; i += 3) {
+    catalogSection += `<tr>\n`
+    
+    // Add up to 3 icons per row
+    for (let j = 0; j < 3 && (i + j) < icons.length; j++) {
+      const icon = icons[i + j]
+      catalogSection += `<td style="padding: 8px; vertical-align: middle;">\n`
+      catalogSection += `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 8px;" stroke="currentColor" stroke-width="2">\n`
+      catalogSection += `${icon.svgContent}\n`
+      catalogSection += `</svg>\n`
+      catalogSection += `<code style="font-size: 0.85em;">${icon.componentName}</code>\n`
+      catalogSection += `</td>\n`
+    }
+    
+    // Fill empty cells if row is incomplete
+    const remaining = 3 - (icons.length - i)
+    if (remaining > 0 && remaining < 3) {
+      for (let k = 0; k < remaining; k++) {
+        catalogSection += `<td></td>\n`
+      }
+    }
+    
+    catalogSection += `</tr>\n`
+  }
+  
+  catalogSection += `</tbody>\n</table>\n\n`
 })
 
 catalogSection += `**Total: ${totalIcons} iconos**\n\n`
@@ -95,19 +112,24 @@ catalogSection += `**Total: ${totalIcons} iconos**\n\n`
 // Read current README
 const readmeContent = fs.readFileSync(readmeFile, 'utf8')
 
-// Find the position to insert the catalog (after "## 📚 Iconos disponibles" section)
-const iconosDisponiblesIndex = readmeContent.indexOf('## 📚 Iconos disponibles')
+// Find the position to replace the catalog section
+const catalogStartIndex = readmeContent.indexOf('## 📋 Catálogo Visual de Iconos')
 const ejemploCompletoIndex = readmeContent.indexOf('## 📖 Ejemplo completo')
 
-if (iconosDisponiblesIndex !== -1 && ejemploCompletoIndex !== -1) {
-  // Find the end of the "Iconos disponibles" section
-  const sectionEnd = readmeContent.indexOf('\n## 📖 Ejemplo completo', iconosDisponiblesIndex)
+if (catalogStartIndex !== -1 && ejemploCompletoIndex !== -1) {
+  // Find the end of the catalog section (before "Ejemplo completo")
+  let catalogEnd = readmeContent.indexOf('\n## 📖 Ejemplo completo', catalogStartIndex)
   
-  // Insert catalog before "Ejemplo completo"
+  if (catalogEnd === -1) {
+    // Try without the newline
+    catalogEnd = readmeContent.indexOf('## 📖 Ejemplo completo', catalogStartIndex)
+  }
+  
+  // Replace the entire catalog section
   const newReadme = 
-    readmeContent.substring(0, sectionEnd) + 
-    '\n' + catalogSection + 
-    readmeContent.substring(sectionEnd)
+    readmeContent.substring(0, catalogStartIndex) + 
+    catalogSection + 
+    readmeContent.substring(catalogEnd)
   
   fs.writeFileSync(readmeFile, newReadme, 'utf8')
   console.log(`✅ Catálogo agregado al README`)
