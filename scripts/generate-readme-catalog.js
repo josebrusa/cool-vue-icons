@@ -17,14 +17,7 @@ function pascalCase(name) {
     .replace(/[^a-zA-Z0-9]/g, '')
 }
 
-function getSvgContent(filePath) {
-  try {
-    const raw = fs.readFileSync(filePath, 'utf8')
-    return raw.replace(/<svg[^>]*>/i, '').replace(/<\/svg>/i, '').trim()
-  } catch (error) {
-    return ''
-  }
-}
+// No longer needed - we'll use file references instead
 
 function getAllCategories() {
   const categories = []
@@ -46,14 +39,15 @@ function getIconsInCategory(categoryName) {
   
   files.forEach(file => {
     if (file.endsWith('.svg')) {
-      const filePath = path.join(categoryPath, file)
       const name = pascalCase(file)
       const componentName = `Icon${name}`
-      const svgContent = getSvgContent(filePath)
+      // Store relative path to SVG file
+      const svgPath = `cooliocns SVG/${categoryName}/${file}`
       
       icons.push({
         componentName: componentName,
-        svgContent: svgContent
+        svgPath: svgPath,
+        fileName: file
       })
     }
   })
@@ -86,9 +80,7 @@ categories.forEach(category => {
     for (let j = 0; j < 3 && (i + j) < icons.length; j++) {
       const icon = icons[i + j]
       catalogSection += `<td style="padding: 8px; vertical-align: middle;">\n`
-      catalogSection += `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle; margin-right: 8px;" stroke="currentColor" stroke-width="2">\n`
-      catalogSection += `${icon.svgContent}\n`
-      catalogSection += `</svg>\n`
+      catalogSection += `<img src="${icon.svgPath}" width="20" height="20" alt="${icon.componentName}" style="vertical-align: middle; margin-right: 8px;" />\n`
       catalogSection += `<code style="font-size: 0.85em;">${icon.componentName}</code>\n`
       catalogSection += `</td>\n`
     }
