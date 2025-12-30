@@ -120,6 +120,7 @@ La librería incluye más de 440 iconos organizados en categorías:
 
 
 
+
 ## 📋 Catálogo Visual de Iconos
 
 <h3 id="arrow">Arrow (72 iconos)</h3>
