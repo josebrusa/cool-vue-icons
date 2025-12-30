@@ -23,7 +23,7 @@ export default defineConfig({
     target: 'es2015',
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'IconsCoolVue',
+      name: 'CoolVueIcons',
       fileName: (format) => `index.${format === 'es' ? 'esm' : format}.js`
     },
     rollupOptions: {

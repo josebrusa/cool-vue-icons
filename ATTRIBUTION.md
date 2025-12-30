@@ -18,7 +18,7 @@ coolicons es una colección cuidadosamente diseñada de 440+ iconos con un enfoq
 
 ## Licencia de Esta Librería
 
-Esta librería Vue (`icons-cool-vue`) es una adaptación de los iconos SVG originales como componentes Vue 3.
+Esta librería Vue (`cool-vue-icons`) es una adaptación de los iconos SVG originales como componentes Vue 3.
 
 - **Código de la librería** (componentes Vue, sistema de build, etc.): Licenciado bajo **MIT**
 - **Iconos SVG originales**: Licenciados bajo **CC BY 4.0** por Kryston Schwarze

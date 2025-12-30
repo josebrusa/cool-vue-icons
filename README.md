@@ -1,11 +1,11 @@
-# icons-cool-vue
+# cool-vue-icons
 
 Biblioteca de iconos como componentes Vue (Vue 3 + TypeScript). Incluye más de 440 iconos listos para usar.
 
 ## 📦 Instalación
 
 ```bash
-npm install icons-cool-vue
+npm install cool-vue-icons
 ```
 
 ## 🚀 Uso
@@ -18,7 +18,7 @@ Registra todos los iconos globalmente en tu aplicación Vue:
 // main.ts o main.js
 import { createApp } from 'vue'
 import App from './App.vue'
-import IconLibrary from 'icons-cool-vue'
+import IconLibrary from 'cool-vue-icons'
 
 const app = createApp(App)
 app.use(IconLibrary)
@@ -44,7 +44,7 @@ Importa solo los iconos que necesites:
 
 ```vue
 <script setup>
-import { IconArrowDown, IconCalendar, IconBell, IconUser } from 'icons-cool-vue'
+import { IconArrowDown, IconCalendar, IconBell, IconUser } from 'cool-vue-icons'
 </script>
 
 <template>
@@ -61,7 +61,7 @@ import { IconArrowDown, IconCalendar, IconBell, IconUser } from 'icons-cool-vue'
 
 ```vue
 <script setup>
-import IconArrowDown from 'icons-cool-vue/src/icons/IconArrowDown.vue'
+import IconArrowDown from 'cool-vue-icons/src/icons/IconArrowDown.vue'
 </script>
 
 <template>
@@ -2311,7 +2311,7 @@ La librería incluye más de 440 iconos organizados en categorías:
 
 ```vue
 <script setup>
-import { IconArrowDown, IconCalendar, IconBell } from 'icons-cool-vue'
+import { IconArrowDown, IconCalendar, IconBell } from 'cool-vue-icons'
 </script>
 
 <template>
