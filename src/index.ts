@@ -3,6 +3,470 @@
 
 import { App } from 'vue'
 
+import IconArrowCircleDown from './icons/IconArrowCircleDown.vue'
+import IconArrowCircleDownLeft from './icons/IconArrowCircleDownLeft.vue'
+import IconArrowCircleDownRight from './icons/IconArrowCircleDownRight.vue'
+import IconArrowCircleLeft from './icons/IconArrowCircleLeft.vue'
+import IconArrowCircleRight from './icons/IconArrowCircleRight.vue'
+import IconArrowCircleUp from './icons/IconArrowCircleUp.vue'
+import IconArrowCircleUpLeft from './icons/IconArrowCircleUpLeft.vue'
+import IconArrowCircleUpRight from './icons/IconArrowCircleUpRight.vue'
+import IconArrowDownLg from './icons/IconArrowDownLg.vue'
+import IconArrowDownLeftLg from './icons/IconArrowDownLeftLg.vue'
+import IconArrowDownLeftMd from './icons/IconArrowDownLeftMd.vue'
+import IconArrowDownLeftSm from './icons/IconArrowDownLeftSm.vue'
+import IconArrowDownMd from './icons/IconArrowDownMd.vue'
+import IconArrowDownRightLg from './icons/IconArrowDownRightLg.vue'
+import IconArrowDownRightMd from './icons/IconArrowDownRightMd.vue'
+import IconArrowDownRightSm from './icons/IconArrowDownRightSm.vue'
+import IconArrowDownSm from './icons/IconArrowDownSm.vue'
+import IconArrowDownUp from './icons/IconArrowDownUp.vue'
+import IconArrowLeftLg from './icons/IconArrowLeftLg.vue'
+import IconArrowLeftMd from './icons/IconArrowLeftMd.vue'
+import IconArrowLeftRight from './icons/IconArrowLeftRight.vue'
+import IconArrowLeftSm from './icons/IconArrowLeftSm.vue'
+import IconArrowReload02 from './icons/IconArrowReload02.vue'
+import IconArrowRightLg from './icons/IconArrowRightLg.vue'
+import IconArrowRightMd from './icons/IconArrowRightMd.vue'
+import IconArrowRightSm from './icons/IconArrowRightSm.vue'
+import IconArrowSubDownLeft from './icons/IconArrowSubDownLeft.vue'
+import IconArrowSubDownRight from './icons/IconArrowSubDownRight.vue'
+import IconArrowSubLeftDown from './icons/IconArrowSubLeftDown.vue'
+import IconArrowSubLeftUp from './icons/IconArrowSubLeftUp.vue'
+import IconArrowSubRightDown from './icons/IconArrowSubRightDown.vue'
+import IconArrowSubRightUp from './icons/IconArrowSubRightUp.vue'
+import IconArrowSubUpLeft from './icons/IconArrowSubUpLeft.vue'
+import IconArrowSubUpRight from './icons/IconArrowSubUpRight.vue'
+import IconArrowUndoDownLeft from './icons/IconArrowUndoDownLeft.vue'
+import IconArrowUndoDownRight from './icons/IconArrowUndoDownRight.vue'
+import IconArrowUndoUpLeft from './icons/IconArrowUndoUpLeft.vue'
+import IconArrowUndoUpRight from './icons/IconArrowUndoUpRight.vue'
+import IconArrowUpLg from './icons/IconArrowUpLg.vue'
+import IconArrowUpLeftLg from './icons/IconArrowUpLeftLg.vue'
+import IconArrowUpLeftMd from './icons/IconArrowUpLeftMd.vue'
+import IconArrowUpLeftSm from './icons/IconArrowUpLeftSm.vue'
+import IconArrowUpMd from './icons/IconArrowUpMd.vue'
+import IconArrowUpRightLg from './icons/IconArrowUpRightLg.vue'
+import IconArrowUpRightMd from './icons/IconArrowUpRightMd.vue'
+import IconArrowUpRightSm from './icons/IconArrowUpRightSm.vue'
+import IconArrowUpSm from './icons/IconArrowUpSm.vue'
+import IconArrowsReload01 from './icons/IconArrowsReload01.vue'
+import IconCaretCircleDown from './icons/IconCaretCircleDown.vue'
+import IconCaretCircleLeft from './icons/IconCaretCircleLeft.vue'
+import IconCaretCircleRight from './icons/IconCaretCircleRight.vue'
+import IconCaretCircleUp from './icons/IconCaretCircleUp.vue'
+import IconCaretDownMd from './icons/IconCaretDownMd.vue'
+import IconCaretDownSm from './icons/IconCaretDownSm.vue'
+import IconCaretLeftSm from './icons/IconCaretLeftSm.vue'
+import IconCaretRightSm from './icons/IconCaretRightSm.vue'
+import IconCaretUpMd from './icons/IconCaretUpMd.vue'
+import IconCaretUpSm from './icons/IconCaretUpSm.vue'
+import IconChevronDown from './icons/IconChevronDown.vue'
+import IconChevronDownDuo from './icons/IconChevronDownDuo.vue'
+import IconChevronLeft from './icons/IconChevronLeft.vue'
+import IconChevronLeftDuo from './icons/IconChevronLeftDuo.vue'
+import IconChevronLeftMd from './icons/IconChevronLeftMd.vue'
+import IconChevronRight from './icons/IconChevronRight.vue'
+import IconChevronRightDuo from './icons/IconChevronRightDuo.vue'
+import IconChevronRightMd from './icons/IconChevronRightMd.vue'
+import IconChevronUp from './icons/IconChevronUp.vue'
+import IconChevronUpDuo from './icons/IconChevronUpDuo.vue'
+import IconExpand from './icons/IconExpand.vue'
+import IconShrink from './icons/IconShrink.vue'
+import IconUnfoldLess from './icons/IconUnfoldLess.vue'
+import IconUnfoldMore from './icons/IconUnfoldMore.vue'
+import IconAlarm from './icons/IconAlarm.vue'
+import IconCalendar from './icons/IconCalendar.vue'
+import IconCalendarAdd from './icons/IconCalendarAdd.vue'
+import IconCalendarCheck from './icons/IconCalendarCheck.vue'
+import IconCalendarClose from './icons/IconCalendarClose.vue'
+import IconCalendarDays from './icons/IconCalendarDays.vue'
+import IconCalendarEvent from './icons/IconCalendarEvent.vue'
+import IconCalendarRemove from './icons/IconCalendarRemove.vue'
+import IconCalendarWeek from './icons/IconCalendarWeek.vue'
+import IconClock from './icons/IconClock.vue'
+import IconTimer from './icons/IconTimer.vue'
+import IconTimerAdd from './icons/IconTimerAdd.vue'
+import IconTimerClose from './icons/IconTimerClose.vue'
+import IconTimerRemove from './icons/IconTimerRemove.vue'
+import IconBell from './icons/IconBell.vue'
+import IconBellAdd from './icons/IconBellAdd.vue'
+import IconBellClose from './icons/IconBellClose.vue'
+import IconBellNotification from './icons/IconBellNotification.vue'
+import IconBellOff from './icons/IconBellOff.vue'
+import IconBellRemove from './icons/IconBellRemove.vue'
+import IconBellRing from './icons/IconBellRing.vue'
+import IconChat from './icons/IconChat.vue'
+import IconChatAdd from './icons/IconChatAdd.vue'
+import IconChatCheck from './icons/IconChatCheck.vue'
+import IconChatCircle from './icons/IconChatCircle.vue'
+import IconChatCircleAdd from './icons/IconChatCircleAdd.vue'
+import IconChatCircleCheck from './icons/IconChatCircleCheck.vue'
+import IconChatCircleClose from './icons/IconChatCircleClose.vue'
+import IconChatCircleDots from './icons/IconChatCircleDots.vue'
+import IconChatCircleRemove from './icons/IconChatCircleRemove.vue'
+import IconChatClose from './icons/IconChatClose.vue'
+import IconChatConversation from './icons/IconChatConversation.vue'
+import IconChatConversationCircle from './icons/IconChatConversationCircle.vue'
+import IconChatDots from './icons/IconChatDots.vue'
+import IconChatRemove from './icons/IconChatRemove.vue'
+import IconMail from './icons/IconMail.vue'
+import IconMailOpen from './icons/IconMailOpen.vue'
+import IconPaperPlane from './icons/IconPaperPlane.vue'
+import IconPhone from './icons/IconPhone.vue'
+import IconShareAndroid from './icons/IconShareAndroid.vue'
+import IconShareIosExport from './icons/IconShareIosExport.vue'
+import IconAddColumn from './icons/IconAddColumn.vue'
+import IconAddMinusSquare from './icons/IconAddMinusSquare.vue'
+import IconAddPlus from './icons/IconAddPlus.vue'
+import IconAddPlusCircle from './icons/IconAddPlusCircle.vue'
+import IconAddPlusSquare from './icons/IconAddPlusSquare.vue'
+import IconAddRow from './icons/IconAddRow.vue'
+import IconAddToQueue from './icons/IconAddToQueue.vue'
+import IconBold from './icons/IconBold.vue'
+import IconCloseCircle from './icons/IconCloseCircle.vue'
+import IconCloseSquare from './icons/IconCloseSquare.vue'
+import IconColumns from './icons/IconColumns.vue'
+import IconCombineCells from './icons/IconCombineCells.vue'
+import IconCopy from './icons/IconCopy.vue'
+import IconCrop from './icons/IconCrop.vue'
+import IconDeleteColumn from './icons/IconDeleteColumn.vue'
+import IconDeleteRow from './icons/IconDeleteRow.vue'
+import IconDoubleQuotesL from './icons/IconDoubleQuotesL.vue'
+import IconDoubleQuotesR from './icons/IconDoubleQuotesR.vue'
+import IconEditPencil01 from './icons/IconEditPencil01.vue'
+import IconEditPencil02 from './icons/IconEditPencil02.vue'
+import IconEditPencilLine01 from './icons/IconEditPencilLine01.vue'
+import IconEditPencilLine02 from './icons/IconEditPencilLine02.vue'
+import IconFigma from './icons/IconFigma.vue'
+import IconFont from './icons/IconFont.vue'
+import IconHeading from './icons/IconHeading.vue'
+import IconHeadingH1 from './icons/IconHeadingH1.vue'
+import IconHeadingH2 from './icons/IconHeadingH2.vue'
+import IconHeadingH3 from './icons/IconHeadingH3.vue'
+import IconHeadingH4 from './icons/IconHeadingH4.vue'
+import IconHeadingH5 from './icons/IconHeadingH5.vue'
+import IconHeadingH6 from './icons/IconHeadingH6.vue'
+import IconHide from './icons/IconHide.vue'
+import IconItalic from './icons/IconItalic.vue'
+import IconLayer from './icons/IconLayer.vue'
+import IconLayers from './icons/IconLayers.vue'
+import IconListAdd from './icons/IconListAdd.vue'
+import IconListCheck from './icons/IconListCheck.vue'
+import IconListChecklist from './icons/IconListChecklist.vue'
+import IconListOrdered from './icons/IconListOrdered.vue'
+import IconListRemove from './icons/IconListRemove.vue'
+import IconListUnordered from './icons/IconListUnordered.vue'
+import IconMention from './icons/IconMention.vue'
+import IconMove from './icons/IconMove.vue'
+import IconMoveHorizontal from './icons/IconMoveHorizontal.vue'
+import IconMoveVertical from './icons/IconMoveVertical.vue'
+import IconPaperclipAttechmentHorizontal from './icons/IconPaperclipAttechmentHorizontal.vue'
+import IconPaperclipAttechmentTilt from './icons/IconPaperclipAttechmentTilt.vue'
+import IconParagraph from './icons/IconParagraph.vue'
+import IconPath from './icons/IconPath.vue'
+import IconRedo from './icons/IconRedo.vue'
+import IconRemoveMinus from './icons/IconRemoveMinus.vue'
+import IconRemoveMinusCircle from './icons/IconRemoveMinusCircle.vue'
+import IconRows from './icons/IconRows.vue'
+import IconRuler from './icons/IconRuler.vue'
+import IconSelectMultiple from './icons/IconSelectMultiple.vue'
+import IconShow from './icons/IconShow.vue'
+import IconSingleQuotesL from './icons/IconSingleQuotesL.vue'
+import IconSingleQuotesR from './icons/IconSingleQuotesR.vue'
+import IconSortAscending from './icons/IconSortAscending.vue'
+import IconSortDescending from './icons/IconSortDescending.vue'
+import IconStrikethrough from './icons/IconStrikethrough.vue'
+import IconSwatchesPalette from './icons/IconSwatchesPalette.vue'
+import IconTable from './icons/IconTable.vue'
+import IconTableAdd from './icons/IconTableAdd.vue'
+import IconTableRemove from './icons/IconTableRemove.vue'
+import IconText from './icons/IconText.vue'
+import IconTextAlignCenter from './icons/IconTextAlignCenter.vue'
+import IconTextAlignJustify from './icons/IconTextAlignJustify.vue'
+import IconTextAlignLeft from './icons/IconTextAlignLeft.vue'
+import IconTextAlignRight from './icons/IconTextAlignRight.vue'
+import IconUnderline from './icons/IconUnderline.vue'
+import IconUndo from './icons/IconUndo.vue'
+import IconAgricultural from './icons/IconAgricultural.vue'
+import IconBulb from './icons/IconBulb.vue'
+import IconCamping from './icons/IconCamping.vue'
+import IconCoffeToGo from './icons/IconCoffeToGo.vue'
+import IconCoffee from './icons/IconCoffee.vue'
+import IconCookie from './icons/IconCookie.vue'
+import IconCultural from './icons/IconCultural.vue'
+import IconCupcake from './icons/IconCupcake.vue'
+import IconFire from './icons/IconFire.vue'
+import IconFirstAid from './icons/IconFirstAid.vue'
+import IconLeaf from './icons/IconLeaf.vue'
+import IconMoon from './icons/IconMoon.vue'
+import IconMountain from './icons/IconMountain.vue'
+import IconPlanet from './icons/IconPlanet.vue'
+import IconPuzzle from './icons/IconPuzzle.vue'
+import IconRainbow from './icons/IconRainbow.vue'
+import IconSea from './icons/IconSea.vue'
+import IconShovel from './icons/IconShovel.vue'
+import IconSnowflake from './icons/IconSnowflake.vue'
+import IconSun from './icons/IconSun.vue'
+import IconSunrise from './icons/IconSunrise.vue'
+import IconThermometer from './icons/IconThermometer.vue'
+import IconTree from './icons/IconTree.vue'
+import IconValley from './icons/IconValley.vue'
+import IconWaterDrop from './icons/IconWaterDrop.vue'
+import IconArchive from './icons/IconArchive.vue'
+import IconCloud from './icons/IconCloud.vue'
+import IconCloudAdd from './icons/IconCloudAdd.vue'
+import IconCloudCheck from './icons/IconCloudCheck.vue'
+import IconCloudClose from './icons/IconCloudClose.vue'
+import IconCloudDownload from './icons/IconCloudDownload.vue'
+import IconCloudOff from './icons/IconCloudOff.vue'
+import IconCloudRemove from './icons/IconCloudRemove.vue'
+import IconCloudUpload from './icons/IconCloudUpload.vue'
+import IconDownloadPackage from './icons/IconDownloadPackage.vue'
+import IconFileAdd from './icons/IconFileAdd.vue'
+import IconFileBlank from './icons/IconFileBlank.vue'
+import IconFileCheck from './icons/IconFileCheck.vue'
+import IconFileClose from './icons/IconFileClose.vue'
+import IconFileCode from './icons/IconFileCode.vue'
+import IconFileDocument from './icons/IconFileDocument.vue'
+import IconFileDownload from './icons/IconFileDownload.vue'
+import IconFileEdit from './icons/IconFileEdit.vue'
+import IconFileRemove from './icons/IconFileRemove.vue'
+import IconFileSearch from './icons/IconFileSearch.vue'
+import IconFileUpload from './icons/IconFileUpload.vue'
+import IconFiles from './icons/IconFiles.vue'
+import IconFolder from './icons/IconFolder.vue'
+import IconFolderAdd from './icons/IconFolderAdd.vue'
+import IconFolderCheck from './icons/IconFolderCheck.vue'
+import IconFolderClose from './icons/IconFolderClose.vue'
+import IconFolderCode from './icons/IconFolderCode.vue'
+import IconFolderDocument from './icons/IconFolderDocument.vue'
+import IconFolderDownload from './icons/IconFolderDownload.vue'
+import IconFolderEdit from './icons/IconFolderEdit.vue'
+import IconFolderOpen from './icons/IconFolderOpen.vue'
+import IconFolderRemove from './icons/IconFolderRemove.vue'
+import IconFolderSearch from './icons/IconFolderSearch.vue'
+import IconFolderUpload from './icons/IconFolderUpload.vue'
+import IconFolders from './icons/IconFolders.vue'
+import IconNote from './icons/IconNote.vue'
+import IconNoteEdit from './icons/IconNoteEdit.vue'
+import IconNoteSearch from './icons/IconNoteSearch.vue'
+import IconNotebook from './icons/IconNotebook.vue'
+import IconBook from './icons/IconBook.vue'
+import IconBookOpen from './icons/IconBookOpen.vue'
+import IconBookmark from './icons/IconBookmark.vue'
+import IconChartBarHorizontal01 from './icons/IconChartBarHorizontal01.vue'
+import IconChartBarVertical01 from './icons/IconChartBarVertical01.vue'
+import IconChartLine from './icons/IconChartLine.vue'
+import IconChartPie from './icons/IconChartPie.vue'
+import IconCheck from './icons/IconCheck.vue'
+import IconCheckAll from './icons/IconCheckAll.vue'
+import IconCheckAllBig from './icons/IconCheckAllBig.vue'
+import IconCheckBig from './icons/IconCheckBig.vue'
+import IconCheckboxCheck from './icons/IconCheckboxCheck.vue'
+import IconCheckboxFill from './icons/IconCheckboxFill.vue'
+import IconCheckboxUnchecked from './icons/IconCheckboxUnchecked.vue'
+import IconCommand from './icons/IconCommand.vue'
+import IconConfetti from './icons/IconConfetti.vue'
+import IconCreditCard01 from './icons/IconCreditCard01.vue'
+import IconCreditCard02 from './icons/IconCreditCard02.vue'
+import IconCrown from './icons/IconCrown.vue'
+import IconDiamond from './icons/IconDiamond.vue'
+import IconDownload from './icons/IconDownload.vue'
+import IconDragHorizontal from './icons/IconDragHorizontal.vue'
+import IconDragVertical from './icons/IconDragVertical.vue'
+import IconDummyCircle from './icons/IconDummyCircle.vue'
+import IconDummyCircleSmall from './icons/IconDummyCircleSmall.vue'
+import IconDummySquare from './icons/IconDummySquare.vue'
+import IconDummySquareSmall from './icons/IconDummySquareSmall.vue'
+import IconExit from './icons/IconExit.vue'
+import IconExternalLink from './icons/IconExternalLink.vue'
+import IconFilter from './icons/IconFilter.vue'
+import IconFilterOff from './icons/IconFilterOff.vue'
+import IconGift from './icons/IconGift.vue'
+import IconHandbag from './icons/IconHandbag.vue'
+import IconHeart01 from './icons/IconHeart01.vue'
+import IconHeart02 from './icons/IconHeart02.vue'
+import IconInstance from './icons/IconInstance.vue'
+import IconLabel from './icons/IconLabel.vue'
+import IconLineL from './icons/IconLineL.vue'
+import IconLineM from './icons/IconLineM.vue'
+import IconLineS from './icons/IconLineS.vue'
+import IconLineXl from './icons/IconLineXl.vue'
+import IconLink from './icons/IconLink.vue'
+import IconLinkBreak from './icons/IconLinkBreak.vue'
+import IconLinkHorizontal from './icons/IconLinkHorizontal.vue'
+import IconLinkHorizontalOff from './icons/IconLinkHorizontalOff.vue'
+import IconLinkVertical from './icons/IconLinkVertical.vue'
+import IconLoading from './icons/IconLoading.vue'
+import IconLock from './icons/IconLock.vue'
+import IconLockOpen from './icons/IconLockOpen.vue'
+import IconLogOut from './icons/IconLogOut.vue'
+import IconMagnifyingGlassMinus from './icons/IconMagnifyingGlassMinus.vue'
+import IconMagnifyingGlassPlus from './icons/IconMagnifyingGlassPlus.vue'
+import IconMainComponent from './icons/IconMainComponent.vue'
+import IconOption from './icons/IconOption.vue'
+import IconRadioFill from './icons/IconRadioFill.vue'
+import IconRadioUnchecked from './icons/IconRadioUnchecked.vue'
+import IconSearchMagnifyingGlass from './icons/IconSearchMagnifyingGlass.vue'
+import IconSettings from './icons/IconSettings.vue'
+import IconSettingsFuture from './icons/IconSettingsFuture.vue'
+import IconShare from './icons/IconShare.vue'
+import IconShoppingBag01 from './icons/IconShoppingBag01.vue'
+import IconShoppingBag02 from './icons/IconShoppingBag02.vue'
+import IconShoppingCart01 from './icons/IconShoppingCart01.vue'
+import IconShoppingCart02 from './icons/IconShoppingCart02.vue'
+import IconSlider01 from './icons/IconSlider01.vue'
+import IconSlider02 from './icons/IconSlider02.vue'
+import IconSlider03 from './icons/IconSlider03.vue'
+import IconStar from './icons/IconStar.vue'
+import IconSuitcase from './icons/IconSuitcase.vue'
+import IconSwichtLeft from './icons/IconSwichtLeft.vue'
+import IconSwichtRight from './icons/IconSwichtRight.vue'
+import IconTag from './icons/IconTag.vue'
+import IconTicketVoucher from './icons/IconTicketVoucher.vue'
+import IconTrashEmpty from './icons/IconTrashEmpty.vue'
+import IconTrashFull from './icons/IconTrashFull.vue'
+import IconTrendingDown from './icons/IconTrendingDown.vue'
+import IconTrendingUp from './icons/IconTrendingUp.vue'
+import IconAirplay from './icons/IconAirplay.vue'
+import IconChromecast from './icons/IconChromecast.vue'
+import IconFilm from './icons/IconFilm.vue'
+import IconForward from './icons/IconForward.vue'
+import IconHeadphones from './icons/IconHeadphones.vue'
+import IconImage01 from './icons/IconImage01.vue'
+import IconImage02 from './icons/IconImage02.vue'
+import IconMusic from './icons/IconMusic.vue'
+import IconPause from './icons/IconPause.vue'
+import IconPauseCircle from './icons/IconPauseCircle.vue'
+import IconPlay from './icons/IconPlay.vue'
+import IconPlayCircle from './icons/IconPlayCircle.vue'
+import IconRewind from './icons/IconRewind.vue'
+import IconShuffle from './icons/IconShuffle.vue'
+import IconSkipBack from './icons/IconSkipBack.vue'
+import IconSkipForward from './icons/IconSkipForward.vue'
+import IconStop from './icons/IconStop.vue'
+import IconStopCircle from './icons/IconStopCircle.vue'
+import IconVolumeMax from './icons/IconVolumeMax.vue'
+import IconVolumeMin from './icons/IconVolumeMin.vue'
+import IconVolumeMinus from './icons/IconVolumeMinus.vue'
+import IconVolumeOff from './icons/IconVolumeOff.vue'
+import IconVolumeOff02 from './icons/IconVolumeOff02.vue'
+import IconVolumePlus from './icons/IconVolumePlus.vue'
+import IconCloseLg from './icons/IconCloseLg.vue'
+import IconCloseMd from './icons/IconCloseMd.vue'
+import IconCloseSm from './icons/IconCloseSm.vue'
+import IconHamburgerLg from './icons/IconHamburgerLg.vue'
+import IconHamburgerMd from './icons/IconHamburgerMd.vue'
+import IconMenuAlt01 from './icons/IconMenuAlt01.vue'
+import IconMenuAlt02 from './icons/IconMenuAlt02.vue'
+import IconMenuAlt03 from './icons/IconMenuAlt03.vue'
+import IconMenuAlt04 from './icons/IconMenuAlt04.vue'
+import IconMenuAlt05 from './icons/IconMenuAlt05.vue'
+import IconMenuDuoLg from './icons/IconMenuDuoLg.vue'
+import IconMenuDuoMd from './icons/IconMenuDuoMd.vue'
+import IconMoreGridBig from './icons/IconMoreGridBig.vue'
+import IconMoreGridSmall from './icons/IconMoreGridSmall.vue'
+import IconMoreHorizontal from './icons/IconMoreHorizontal.vue'
+import IconMoreVertical from './icons/IconMoreVertical.vue'
+import IconBuilding01 from './icons/IconBuilding01.vue'
+import IconBuilding02 from './icons/IconBuilding02.vue'
+import IconBuilding03 from './icons/IconBuilding03.vue'
+import IconBuilding04 from './icons/IconBuilding04.vue'
+import IconBus from './icons/IconBus.vue'
+import IconCarAuto from './icons/IconCarAuto.vue'
+import IconCompass from './icons/IconCompass.vue'
+import IconFlag from './icons/IconFlag.vue'
+import IconGlobe from './icons/IconGlobe.vue'
+import IconHouse01 from './icons/IconHouse01.vue'
+import IconHouse02 from './icons/IconHouse02.vue'
+import IconHouse03 from './icons/IconHouse03.vue'
+import IconHouseAdd from './icons/IconHouseAdd.vue'
+import IconHouseCheck from './icons/IconHouseCheck.vue'
+import IconHouseClose from './icons/IconHouseClose.vue'
+import IconHouseRemove from './icons/IconHouseRemove.vue'
+import IconMap from './icons/IconMap.vue'
+import IconMapPin from './icons/IconMapPin.vue'
+import IconNavigation from './icons/IconNavigation.vue'
+import IconTrain from './icons/IconTrain.vue'
+import IconCircle from './icons/IconCircle.vue'
+import IconOctagon from './icons/IconOctagon.vue'
+import IconShield from './icons/IconShield.vue'
+import IconSquare from './icons/IconSquare.vue'
+import IconTriangle from './icons/IconTriangle.vue'
+import IconWavy from './icons/IconWavy.vue'
+import IconBarBottom from './icons/IconBarBottom.vue'
+import IconBarLeft from './icons/IconBarLeft.vue'
+import IconBarRight from './icons/IconBarRight.vue'
+import IconBarTop from './icons/IconBarTop.vue'
+import IconCamera from './icons/IconCamera.vue'
+import IconCode from './icons/IconCode.vue'
+import IconCylinder from './icons/IconCylinder.vue'
+import IconData from './icons/IconData.vue'
+import IconDesktop from './icons/IconDesktop.vue'
+import IconDesktopTower from './icons/IconDesktopTower.vue'
+import IconDevices from './icons/IconDevices.vue'
+import IconKeyboard from './icons/IconKeyboard.vue'
+import IconLaptop from './icons/IconLaptop.vue'
+import IconMobile from './icons/IconMobile.vue'
+import IconMobileButton from './icons/IconMobileButton.vue'
+import IconMonitor from './icons/IconMonitor.vue'
+import IconMonitorPlay from './icons/IconMonitorPlay.vue'
+import IconMouse from './icons/IconMouse.vue'
+import IconMovingDesk from './icons/IconMovingDesk.vue'
+import IconPrinter from './icons/IconPrinter.vue'
+import IconQrCode from './icons/IconQrCode.vue'
+import IconSave from './icons/IconSave.vue'
+import IconTablet from './icons/IconTablet.vue'
+import IconTabletButton from './icons/IconTabletButton.vue'
+import IconTerminal from './icons/IconTerminal.vue'
+import IconWifiHigh from './icons/IconWifiHigh.vue'
+import IconWifiLow from './icons/IconWifiLow.vue'
+import IconWifiMedium from './icons/IconWifiMedium.vue'
+import IconWifiNone from './icons/IconWifiNone.vue'
+import IconWifiOff from './icons/IconWifiOff.vue'
+import IconWifiProblem from './icons/IconWifiProblem.vue'
+import IconWindow from './icons/IconWindow.vue'
+import IconWindowCheck from './icons/IconWindowCheck.vue'
+import IconWindowClose from './icons/IconWindowClose.vue'
+import IconWindowCodeBlock from './icons/IconWindowCodeBlock.vue'
+import IconWindowSidebar from './icons/IconWindowSidebar.vue'
+import IconWindowTerminal from './icons/IconWindowTerminal.vue'
+import IconUser01 from './icons/IconUser01.vue'
+import IconUser02 from './icons/IconUser02.vue'
+import IconUser03 from './icons/IconUser03.vue'
+import IconUserAdd from './icons/IconUserAdd.vue'
+import IconUserCardId from './icons/IconUserCardId.vue'
+import IconUserCheck from './icons/IconUserCheck.vue'
+import IconUserCircle from './icons/IconUserCircle.vue'
+import IconUserClose from './icons/IconUserClose.vue'
+import IconUserHandHear from './icons/IconUserHandHear.vue'
+import IconUserRemove from './icons/IconUserRemove.vue'
+import IconUserSquare from './icons/IconUserSquare.vue'
+import IconUserVoice from './icons/IconUserVoice.vue'
+import IconUsers from './icons/IconUsers.vue'
+import IconUsersGroup from './icons/IconUsersGroup.vue'
+import IconCircleCheck from './icons/IconCircleCheck.vue'
+import IconCircleHelp from './icons/IconCircleHelp.vue'
+import IconCircleWarning from './icons/IconCircleWarning.vue'
+import IconHelp from './icons/IconHelp.vue'
+import IconInfo from './icons/IconInfo.vue'
+import IconOctagonCheck from './icons/IconOctagonCheck.vue'
+import IconOctagonHelp from './icons/IconOctagonHelp.vue'
+import IconOctagonWarning from './icons/IconOctagonWarning.vue'
+import IconShieldCheck from './icons/IconShieldCheck.vue'
+import IconShieldWarning from './icons/IconShieldWarning.vue'
+import IconSquareCheck from './icons/IconSquareCheck.vue'
+import IconSquareHelp from './icons/IconSquareHelp.vue'
+import IconSquareWarning from './icons/IconSquareWarning.vue'
+import IconStopSign from './icons/IconStopSign.vue'
+import IconTriangleCheck from './icons/IconTriangleCheck.vue'
+import IconTriangleWarning from './icons/IconTriangleWarning.vue'
+import IconWarning from './icons/IconWarning.vue'
+import IconWavyCheck from './icons/IconWavyCheck.vue'
+import IconWavyHelp from './icons/IconWavyHelp.vue'
+import IconWavyWarning from './icons/IconWavyWarning.vue'
+
 export { default as IconArrowCircleDown } from './icons/IconArrowCircleDown.vue'
 export { default as IconArrowCircleDownLeft } from './icons/IconArrowCircleDownLeft.vue'
 export { default as IconArrowCircleDownRight } from './icons/IconArrowCircleDownRight.vue'
@@ -469,469 +933,469 @@ export { default as IconWavyWarning } from './icons/IconWavyWarning.vue'
 
 // Install function to register all components globally
 export function install(app: App) {
-  app.component('IconArrowCircleDown', require('./icons/IconArrowCircleDown.vue').default)
-  app.component('IconArrowCircleDownLeft', require('./icons/IconArrowCircleDownLeft.vue').default)
-  app.component('IconArrowCircleDownRight', require('./icons/IconArrowCircleDownRight.vue').default)
-  app.component('IconArrowCircleLeft', require('./icons/IconArrowCircleLeft.vue').default)
-  app.component('IconArrowCircleRight', require('./icons/IconArrowCircleRight.vue').default)
-  app.component('IconArrowCircleUp', require('./icons/IconArrowCircleUp.vue').default)
-  app.component('IconArrowCircleUpLeft', require('./icons/IconArrowCircleUpLeft.vue').default)
-  app.component('IconArrowCircleUpRight', require('./icons/IconArrowCircleUpRight.vue').default)
-  app.component('IconArrowDownLg', require('./icons/IconArrowDownLg.vue').default)
-  app.component('IconArrowDownLeftLg', require('./icons/IconArrowDownLeftLg.vue').default)
-  app.component('IconArrowDownLeftMd', require('./icons/IconArrowDownLeftMd.vue').default)
-  app.component('IconArrowDownLeftSm', require('./icons/IconArrowDownLeftSm.vue').default)
-  app.component('IconArrowDownMd', require('./icons/IconArrowDownMd.vue').default)
-  app.component('IconArrowDownRightLg', require('./icons/IconArrowDownRightLg.vue').default)
-  app.component('IconArrowDownRightMd', require('./icons/IconArrowDownRightMd.vue').default)
-  app.component('IconArrowDownRightSm', require('./icons/IconArrowDownRightSm.vue').default)
-  app.component('IconArrowDownSm', require('./icons/IconArrowDownSm.vue').default)
-  app.component('IconArrowDownUp', require('./icons/IconArrowDownUp.vue').default)
-  app.component('IconArrowLeftLg', require('./icons/IconArrowLeftLg.vue').default)
-  app.component('IconArrowLeftMd', require('./icons/IconArrowLeftMd.vue').default)
-  app.component('IconArrowLeftRight', require('./icons/IconArrowLeftRight.vue').default)
-  app.component('IconArrowLeftSm', require('./icons/IconArrowLeftSm.vue').default)
-  app.component('IconArrowReload02', require('./icons/IconArrowReload02.vue').default)
-  app.component('IconArrowRightLg', require('./icons/IconArrowRightLg.vue').default)
-  app.component('IconArrowRightMd', require('./icons/IconArrowRightMd.vue').default)
-  app.component('IconArrowRightSm', require('./icons/IconArrowRightSm.vue').default)
-  app.component('IconArrowSubDownLeft', require('./icons/IconArrowSubDownLeft.vue').default)
-  app.component('IconArrowSubDownRight', require('./icons/IconArrowSubDownRight.vue').default)
-  app.component('IconArrowSubLeftDown', require('./icons/IconArrowSubLeftDown.vue').default)
-  app.component('IconArrowSubLeftUp', require('./icons/IconArrowSubLeftUp.vue').default)
-  app.component('IconArrowSubRightDown', require('./icons/IconArrowSubRightDown.vue').default)
-  app.component('IconArrowSubRightUp', require('./icons/IconArrowSubRightUp.vue').default)
-  app.component('IconArrowSubUpLeft', require('./icons/IconArrowSubUpLeft.vue').default)
-  app.component('IconArrowSubUpRight', require('./icons/IconArrowSubUpRight.vue').default)
-  app.component('IconArrowUndoDownLeft', require('./icons/IconArrowUndoDownLeft.vue').default)
-  app.component('IconArrowUndoDownRight', require('./icons/IconArrowUndoDownRight.vue').default)
-  app.component('IconArrowUndoUpLeft', require('./icons/IconArrowUndoUpLeft.vue').default)
-  app.component('IconArrowUndoUpRight', require('./icons/IconArrowUndoUpRight.vue').default)
-  app.component('IconArrowUpLg', require('./icons/IconArrowUpLg.vue').default)
-  app.component('IconArrowUpLeftLg', require('./icons/IconArrowUpLeftLg.vue').default)
-  app.component('IconArrowUpLeftMd', require('./icons/IconArrowUpLeftMd.vue').default)
-  app.component('IconArrowUpLeftSm', require('./icons/IconArrowUpLeftSm.vue').default)
-  app.component('IconArrowUpMd', require('./icons/IconArrowUpMd.vue').default)
-  app.component('IconArrowUpRightLg', require('./icons/IconArrowUpRightLg.vue').default)
-  app.component('IconArrowUpRightMd', require('./icons/IconArrowUpRightMd.vue').default)
-  app.component('IconArrowUpRightSm', require('./icons/IconArrowUpRightSm.vue').default)
-  app.component('IconArrowUpSm', require('./icons/IconArrowUpSm.vue').default)
-  app.component('IconArrowsReload01', require('./icons/IconArrowsReload01.vue').default)
-  app.component('IconCaretCircleDown', require('./icons/IconCaretCircleDown.vue').default)
-  app.component('IconCaretCircleLeft', require('./icons/IconCaretCircleLeft.vue').default)
-  app.component('IconCaretCircleRight', require('./icons/IconCaretCircleRight.vue').default)
-  app.component('IconCaretCircleUp', require('./icons/IconCaretCircleUp.vue').default)
-  app.component('IconCaretDownMd', require('./icons/IconCaretDownMd.vue').default)
-  app.component('IconCaretDownSm', require('./icons/IconCaretDownSm.vue').default)
-  app.component('IconCaretLeftSm', require('./icons/IconCaretLeftSm.vue').default)
-  app.component('IconCaretRightSm', require('./icons/IconCaretRightSm.vue').default)
-  app.component('IconCaretUpMd', require('./icons/IconCaretUpMd.vue').default)
-  app.component('IconCaretUpSm', require('./icons/IconCaretUpSm.vue').default)
-  app.component('IconChevronDown', require('./icons/IconChevronDown.vue').default)
-  app.component('IconChevronDownDuo', require('./icons/IconChevronDownDuo.vue').default)
-  app.component('IconChevronLeft', require('./icons/IconChevronLeft.vue').default)
-  app.component('IconChevronLeftDuo', require('./icons/IconChevronLeftDuo.vue').default)
-  app.component('IconChevronLeftMd', require('./icons/IconChevronLeftMd.vue').default)
-  app.component('IconChevronRight', require('./icons/IconChevronRight.vue').default)
-  app.component('IconChevronRightDuo', require('./icons/IconChevronRightDuo.vue').default)
-  app.component('IconChevronRightMd', require('./icons/IconChevronRightMd.vue').default)
-  app.component('IconChevronUp', require('./icons/IconChevronUp.vue').default)
-  app.component('IconChevronUpDuo', require('./icons/IconChevronUpDuo.vue').default)
-  app.component('IconExpand', require('./icons/IconExpand.vue').default)
-  app.component('IconShrink', require('./icons/IconShrink.vue').default)
-  app.component('IconUnfoldLess', require('./icons/IconUnfoldLess.vue').default)
-  app.component('IconUnfoldMore', require('./icons/IconUnfoldMore.vue').default)
-  app.component('IconAlarm', require('./icons/IconAlarm.vue').default)
-  app.component('IconCalendar', require('./icons/IconCalendar.vue').default)
-  app.component('IconCalendarAdd', require('./icons/IconCalendarAdd.vue').default)
-  app.component('IconCalendarCheck', require('./icons/IconCalendarCheck.vue').default)
-  app.component('IconCalendarClose', require('./icons/IconCalendarClose.vue').default)
-  app.component('IconCalendarDays', require('./icons/IconCalendarDays.vue').default)
-  app.component('IconCalendarEvent', require('./icons/IconCalendarEvent.vue').default)
-  app.component('IconCalendarRemove', require('./icons/IconCalendarRemove.vue').default)
-  app.component('IconCalendarWeek', require('./icons/IconCalendarWeek.vue').default)
-  app.component('IconClock', require('./icons/IconClock.vue').default)
-  app.component('IconTimer', require('./icons/IconTimer.vue').default)
-  app.component('IconTimerAdd', require('./icons/IconTimerAdd.vue').default)
-  app.component('IconTimerClose', require('./icons/IconTimerClose.vue').default)
-  app.component('IconTimerRemove', require('./icons/IconTimerRemove.vue').default)
-  app.component('IconBell', require('./icons/IconBell.vue').default)
-  app.component('IconBellAdd', require('./icons/IconBellAdd.vue').default)
-  app.component('IconBellClose', require('./icons/IconBellClose.vue').default)
-  app.component('IconBellNotification', require('./icons/IconBellNotification.vue').default)
-  app.component('IconBellOff', require('./icons/IconBellOff.vue').default)
-  app.component('IconBellRemove', require('./icons/IconBellRemove.vue').default)
-  app.component('IconBellRing', require('./icons/IconBellRing.vue').default)
-  app.component('IconChat', require('./icons/IconChat.vue').default)
-  app.component('IconChatAdd', require('./icons/IconChatAdd.vue').default)
-  app.component('IconChatCheck', require('./icons/IconChatCheck.vue').default)
-  app.component('IconChatCircle', require('./icons/IconChatCircle.vue').default)
-  app.component('IconChatCircleAdd', require('./icons/IconChatCircleAdd.vue').default)
-  app.component('IconChatCircleCheck', require('./icons/IconChatCircleCheck.vue').default)
-  app.component('IconChatCircleClose', require('./icons/IconChatCircleClose.vue').default)
-  app.component('IconChatCircleDots', require('./icons/IconChatCircleDots.vue').default)
-  app.component('IconChatCircleRemove', require('./icons/IconChatCircleRemove.vue').default)
-  app.component('IconChatClose', require('./icons/IconChatClose.vue').default)
-  app.component('IconChatConversation', require('./icons/IconChatConversation.vue').default)
-  app.component('IconChatConversationCircle', require('./icons/IconChatConversationCircle.vue').default)
-  app.component('IconChatDots', require('./icons/IconChatDots.vue').default)
-  app.component('IconChatRemove', require('./icons/IconChatRemove.vue').default)
-  app.component('IconMail', require('./icons/IconMail.vue').default)
-  app.component('IconMailOpen', require('./icons/IconMailOpen.vue').default)
-  app.component('IconPaperPlane', require('./icons/IconPaperPlane.vue').default)
-  app.component('IconPhone', require('./icons/IconPhone.vue').default)
-  app.component('IconShareAndroid', require('./icons/IconShareAndroid.vue').default)
-  app.component('IconShareIosExport', require('./icons/IconShareIosExport.vue').default)
-  app.component('IconAddColumn', require('./icons/IconAddColumn.vue').default)
-  app.component('IconAddMinusSquare', require('./icons/IconAddMinusSquare.vue').default)
-  app.component('IconAddPlus', require('./icons/IconAddPlus.vue').default)
-  app.component('IconAddPlusCircle', require('./icons/IconAddPlusCircle.vue').default)
-  app.component('IconAddPlusSquare', require('./icons/IconAddPlusSquare.vue').default)
-  app.component('IconAddRow', require('./icons/IconAddRow.vue').default)
-  app.component('IconAddToQueue', require('./icons/IconAddToQueue.vue').default)
-  app.component('IconBold', require('./icons/IconBold.vue').default)
-  app.component('IconCloseCircle', require('./icons/IconCloseCircle.vue').default)
-  app.component('IconCloseSquare', require('./icons/IconCloseSquare.vue').default)
-  app.component('IconColumns', require('./icons/IconColumns.vue').default)
-  app.component('IconCombineCells', require('./icons/IconCombineCells.vue').default)
-  app.component('IconCopy', require('./icons/IconCopy.vue').default)
-  app.component('IconCrop', require('./icons/IconCrop.vue').default)
-  app.component('IconDeleteColumn', require('./icons/IconDeleteColumn.vue').default)
-  app.component('IconDeleteRow', require('./icons/IconDeleteRow.vue').default)
-  app.component('IconDoubleQuotesL', require('./icons/IconDoubleQuotesL.vue').default)
-  app.component('IconDoubleQuotesR', require('./icons/IconDoubleQuotesR.vue').default)
-  app.component('IconEditPencil01', require('./icons/IconEditPencil01.vue').default)
-  app.component('IconEditPencil02', require('./icons/IconEditPencil02.vue').default)
-  app.component('IconEditPencilLine01', require('./icons/IconEditPencilLine01.vue').default)
-  app.component('IconEditPencilLine02', require('./icons/IconEditPencilLine02.vue').default)
-  app.component('IconFigma', require('./icons/IconFigma.vue').default)
-  app.component('IconFont', require('./icons/IconFont.vue').default)
-  app.component('IconHeading', require('./icons/IconHeading.vue').default)
-  app.component('IconHeadingH1', require('./icons/IconHeadingH1.vue').default)
-  app.component('IconHeadingH2', require('./icons/IconHeadingH2.vue').default)
-  app.component('IconHeadingH3', require('./icons/IconHeadingH3.vue').default)
-  app.component('IconHeadingH4', require('./icons/IconHeadingH4.vue').default)
-  app.component('IconHeadingH5', require('./icons/IconHeadingH5.vue').default)
-  app.component('IconHeadingH6', require('./icons/IconHeadingH6.vue').default)
-  app.component('IconHide', require('./icons/IconHide.vue').default)
-  app.component('IconItalic', require('./icons/IconItalic.vue').default)
-  app.component('IconLayer', require('./icons/IconLayer.vue').default)
-  app.component('IconLayers', require('./icons/IconLayers.vue').default)
-  app.component('IconListAdd', require('./icons/IconListAdd.vue').default)
-  app.component('IconListCheck', require('./icons/IconListCheck.vue').default)
-  app.component('IconListChecklist', require('./icons/IconListChecklist.vue').default)
-  app.component('IconListOrdered', require('./icons/IconListOrdered.vue').default)
-  app.component('IconListRemove', require('./icons/IconListRemove.vue').default)
-  app.component('IconListUnordered', require('./icons/IconListUnordered.vue').default)
-  app.component('IconMention', require('./icons/IconMention.vue').default)
-  app.component('IconMove', require('./icons/IconMove.vue').default)
-  app.component('IconMoveHorizontal', require('./icons/IconMoveHorizontal.vue').default)
-  app.component('IconMoveVertical', require('./icons/IconMoveVertical.vue').default)
-  app.component('IconPaperclipAttechmentHorizontal', require('./icons/IconPaperclipAttechmentHorizontal.vue').default)
-  app.component('IconPaperclipAttechmentTilt', require('./icons/IconPaperclipAttechmentTilt.vue').default)
-  app.component('IconParagraph', require('./icons/IconParagraph.vue').default)
-  app.component('IconPath', require('./icons/IconPath.vue').default)
-  app.component('IconRedo', require('./icons/IconRedo.vue').default)
-  app.component('IconRemoveMinus', require('./icons/IconRemoveMinus.vue').default)
-  app.component('IconRemoveMinusCircle', require('./icons/IconRemoveMinusCircle.vue').default)
-  app.component('IconRows', require('./icons/IconRows.vue').default)
-  app.component('IconRuler', require('./icons/IconRuler.vue').default)
-  app.component('IconSelectMultiple', require('./icons/IconSelectMultiple.vue').default)
-  app.component('IconShow', require('./icons/IconShow.vue').default)
-  app.component('IconSingleQuotesL', require('./icons/IconSingleQuotesL.vue').default)
-  app.component('IconSingleQuotesR', require('./icons/IconSingleQuotesR.vue').default)
-  app.component('IconSortAscending', require('./icons/IconSortAscending.vue').default)
-  app.component('IconSortDescending', require('./icons/IconSortDescending.vue').default)
-  app.component('IconStrikethrough', require('./icons/IconStrikethrough.vue').default)
-  app.component('IconSwatchesPalette', require('./icons/IconSwatchesPalette.vue').default)
-  app.component('IconTable', require('./icons/IconTable.vue').default)
-  app.component('IconTableAdd', require('./icons/IconTableAdd.vue').default)
-  app.component('IconTableRemove', require('./icons/IconTableRemove.vue').default)
-  app.component('IconText', require('./icons/IconText.vue').default)
-  app.component('IconTextAlignCenter', require('./icons/IconTextAlignCenter.vue').default)
-  app.component('IconTextAlignJustify', require('./icons/IconTextAlignJustify.vue').default)
-  app.component('IconTextAlignLeft', require('./icons/IconTextAlignLeft.vue').default)
-  app.component('IconTextAlignRight', require('./icons/IconTextAlignRight.vue').default)
-  app.component('IconUnderline', require('./icons/IconUnderline.vue').default)
-  app.component('IconUndo', require('./icons/IconUndo.vue').default)
-  app.component('IconAgricultural', require('./icons/IconAgricultural.vue').default)
-  app.component('IconBulb', require('./icons/IconBulb.vue').default)
-  app.component('IconCamping', require('./icons/IconCamping.vue').default)
-  app.component('IconCoffeToGo', require('./icons/IconCoffeToGo.vue').default)
-  app.component('IconCoffee', require('./icons/IconCoffee.vue').default)
-  app.component('IconCookie', require('./icons/IconCookie.vue').default)
-  app.component('IconCultural', require('./icons/IconCultural.vue').default)
-  app.component('IconCupcake', require('./icons/IconCupcake.vue').default)
-  app.component('IconFire', require('./icons/IconFire.vue').default)
-  app.component('IconFirstAid', require('./icons/IconFirstAid.vue').default)
-  app.component('IconLeaf', require('./icons/IconLeaf.vue').default)
-  app.component('IconMoon', require('./icons/IconMoon.vue').default)
-  app.component('IconMountain', require('./icons/IconMountain.vue').default)
-  app.component('IconPlanet', require('./icons/IconPlanet.vue').default)
-  app.component('IconPuzzle', require('./icons/IconPuzzle.vue').default)
-  app.component('IconRainbow', require('./icons/IconRainbow.vue').default)
-  app.component('IconSea', require('./icons/IconSea.vue').default)
-  app.component('IconShovel', require('./icons/IconShovel.vue').default)
-  app.component('IconSnowflake', require('./icons/IconSnowflake.vue').default)
-  app.component('IconSun', require('./icons/IconSun.vue').default)
-  app.component('IconSunrise', require('./icons/IconSunrise.vue').default)
-  app.component('IconThermometer', require('./icons/IconThermometer.vue').default)
-  app.component('IconTree', require('./icons/IconTree.vue').default)
-  app.component('IconValley', require('./icons/IconValley.vue').default)
-  app.component('IconWaterDrop', require('./icons/IconWaterDrop.vue').default)
-  app.component('IconArchive', require('./icons/IconArchive.vue').default)
-  app.component('IconCloud', require('./icons/IconCloud.vue').default)
-  app.component('IconCloudAdd', require('./icons/IconCloudAdd.vue').default)
-  app.component('IconCloudCheck', require('./icons/IconCloudCheck.vue').default)
-  app.component('IconCloudClose', require('./icons/IconCloudClose.vue').default)
-  app.component('IconCloudDownload', require('./icons/IconCloudDownload.vue').default)
-  app.component('IconCloudOff', require('./icons/IconCloudOff.vue').default)
-  app.component('IconCloudRemove', require('./icons/IconCloudRemove.vue').default)
-  app.component('IconCloudUpload', require('./icons/IconCloudUpload.vue').default)
-  app.component('IconDownloadPackage', require('./icons/IconDownloadPackage.vue').default)
-  app.component('IconFileAdd', require('./icons/IconFileAdd.vue').default)
-  app.component('IconFileBlank', require('./icons/IconFileBlank.vue').default)
-  app.component('IconFileCheck', require('./icons/IconFileCheck.vue').default)
-  app.component('IconFileClose', require('./icons/IconFileClose.vue').default)
-  app.component('IconFileCode', require('./icons/IconFileCode.vue').default)
-  app.component('IconFileDocument', require('./icons/IconFileDocument.vue').default)
-  app.component('IconFileDownload', require('./icons/IconFileDownload.vue').default)
-  app.component('IconFileEdit', require('./icons/IconFileEdit.vue').default)
-  app.component('IconFileRemove', require('./icons/IconFileRemove.vue').default)
-  app.component('IconFileSearch', require('./icons/IconFileSearch.vue').default)
-  app.component('IconFileUpload', require('./icons/IconFileUpload.vue').default)
-  app.component('IconFiles', require('./icons/IconFiles.vue').default)
-  app.component('IconFolder', require('./icons/IconFolder.vue').default)
-  app.component('IconFolderAdd', require('./icons/IconFolderAdd.vue').default)
-  app.component('IconFolderCheck', require('./icons/IconFolderCheck.vue').default)
-  app.component('IconFolderClose', require('./icons/IconFolderClose.vue').default)
-  app.component('IconFolderCode', require('./icons/IconFolderCode.vue').default)
-  app.component('IconFolderDocument', require('./icons/IconFolderDocument.vue').default)
-  app.component('IconFolderDownload', require('./icons/IconFolderDownload.vue').default)
-  app.component('IconFolderEdit', require('./icons/IconFolderEdit.vue').default)
-  app.component('IconFolderOpen', require('./icons/IconFolderOpen.vue').default)
-  app.component('IconFolderRemove', require('./icons/IconFolderRemove.vue').default)
-  app.component('IconFolderSearch', require('./icons/IconFolderSearch.vue').default)
-  app.component('IconFolderUpload', require('./icons/IconFolderUpload.vue').default)
-  app.component('IconFolders', require('./icons/IconFolders.vue').default)
-  app.component('IconNote', require('./icons/IconNote.vue').default)
-  app.component('IconNoteEdit', require('./icons/IconNoteEdit.vue').default)
-  app.component('IconNoteSearch', require('./icons/IconNoteSearch.vue').default)
-  app.component('IconNotebook', require('./icons/IconNotebook.vue').default)
-  app.component('IconBook', require('./icons/IconBook.vue').default)
-  app.component('IconBookOpen', require('./icons/IconBookOpen.vue').default)
-  app.component('IconBookmark', require('./icons/IconBookmark.vue').default)
-  app.component('IconChartBarHorizontal01', require('./icons/IconChartBarHorizontal01.vue').default)
-  app.component('IconChartBarVertical01', require('./icons/IconChartBarVertical01.vue').default)
-  app.component('IconChartLine', require('./icons/IconChartLine.vue').default)
-  app.component('IconChartPie', require('./icons/IconChartPie.vue').default)
-  app.component('IconCheck', require('./icons/IconCheck.vue').default)
-  app.component('IconCheckAll', require('./icons/IconCheckAll.vue').default)
-  app.component('IconCheckAllBig', require('./icons/IconCheckAllBig.vue').default)
-  app.component('IconCheckBig', require('./icons/IconCheckBig.vue').default)
-  app.component('IconCheckboxCheck', require('./icons/IconCheckboxCheck.vue').default)
-  app.component('IconCheckboxFill', require('./icons/IconCheckboxFill.vue').default)
-  app.component('IconCheckboxUnchecked', require('./icons/IconCheckboxUnchecked.vue').default)
-  app.component('IconCommand', require('./icons/IconCommand.vue').default)
-  app.component('IconConfetti', require('./icons/IconConfetti.vue').default)
-  app.component('IconCreditCard01', require('./icons/IconCreditCard01.vue').default)
-  app.component('IconCreditCard02', require('./icons/IconCreditCard02.vue').default)
-  app.component('IconCrown', require('./icons/IconCrown.vue').default)
-  app.component('IconDiamond', require('./icons/IconDiamond.vue').default)
-  app.component('IconDownload', require('./icons/IconDownload.vue').default)
-  app.component('IconDragHorizontal', require('./icons/IconDragHorizontal.vue').default)
-  app.component('IconDragVertical', require('./icons/IconDragVertical.vue').default)
-  app.component('IconDummyCircle', require('./icons/IconDummyCircle.vue').default)
-  app.component('IconDummyCircleSmall', require('./icons/IconDummyCircleSmall.vue').default)
-  app.component('IconDummySquare', require('./icons/IconDummySquare.vue').default)
-  app.component('IconDummySquareSmall', require('./icons/IconDummySquareSmall.vue').default)
-  app.component('IconExit', require('./icons/IconExit.vue').default)
-  app.component('IconExternalLink', require('./icons/IconExternalLink.vue').default)
-  app.component('IconFilter', require('./icons/IconFilter.vue').default)
-  app.component('IconFilterOff', require('./icons/IconFilterOff.vue').default)
-  app.component('IconGift', require('./icons/IconGift.vue').default)
-  app.component('IconHandbag', require('./icons/IconHandbag.vue').default)
-  app.component('IconHeart01', require('./icons/IconHeart01.vue').default)
-  app.component('IconHeart02', require('./icons/IconHeart02.vue').default)
-  app.component('IconInstance', require('./icons/IconInstance.vue').default)
-  app.component('IconLabel', require('./icons/IconLabel.vue').default)
-  app.component('IconLineL', require('./icons/IconLineL.vue').default)
-  app.component('IconLineM', require('./icons/IconLineM.vue').default)
-  app.component('IconLineS', require('./icons/IconLineS.vue').default)
-  app.component('IconLineXl', require('./icons/IconLineXl.vue').default)
-  app.component('IconLink', require('./icons/IconLink.vue').default)
-  app.component('IconLinkBreak', require('./icons/IconLinkBreak.vue').default)
-  app.component('IconLinkHorizontal', require('./icons/IconLinkHorizontal.vue').default)
-  app.component('IconLinkHorizontalOff', require('./icons/IconLinkHorizontalOff.vue').default)
-  app.component('IconLinkVertical', require('./icons/IconLinkVertical.vue').default)
-  app.component('IconLoading', require('./icons/IconLoading.vue').default)
-  app.component('IconLock', require('./icons/IconLock.vue').default)
-  app.component('IconLockOpen', require('./icons/IconLockOpen.vue').default)
-  app.component('IconLogOut', require('./icons/IconLogOut.vue').default)
-  app.component('IconMagnifyingGlassMinus', require('./icons/IconMagnifyingGlassMinus.vue').default)
-  app.component('IconMagnifyingGlassPlus', require('./icons/IconMagnifyingGlassPlus.vue').default)
-  app.component('IconMainComponent', require('./icons/IconMainComponent.vue').default)
-  app.component('IconOption', require('./icons/IconOption.vue').default)
-  app.component('IconRadioFill', require('./icons/IconRadioFill.vue').default)
-  app.component('IconRadioUnchecked', require('./icons/IconRadioUnchecked.vue').default)
-  app.component('IconSearchMagnifyingGlass', require('./icons/IconSearchMagnifyingGlass.vue').default)
-  app.component('IconSettings', require('./icons/IconSettings.vue').default)
-  app.component('IconSettingsFuture', require('./icons/IconSettingsFuture.vue').default)
-  app.component('IconShare', require('./icons/IconShare.vue').default)
-  app.component('IconShoppingBag01', require('./icons/IconShoppingBag01.vue').default)
-  app.component('IconShoppingBag02', require('./icons/IconShoppingBag02.vue').default)
-  app.component('IconShoppingCart01', require('./icons/IconShoppingCart01.vue').default)
-  app.component('IconShoppingCart02', require('./icons/IconShoppingCart02.vue').default)
-  app.component('IconSlider01', require('./icons/IconSlider01.vue').default)
-  app.component('IconSlider02', require('./icons/IconSlider02.vue').default)
-  app.component('IconSlider03', require('./icons/IconSlider03.vue').default)
-  app.component('IconStar', require('./icons/IconStar.vue').default)
-  app.component('IconSuitcase', require('./icons/IconSuitcase.vue').default)
-  app.component('IconSwichtLeft', require('./icons/IconSwichtLeft.vue').default)
-  app.component('IconSwichtRight', require('./icons/IconSwichtRight.vue').default)
-  app.component('IconTag', require('./icons/IconTag.vue').default)
-  app.component('IconTicketVoucher', require('./icons/IconTicketVoucher.vue').default)
-  app.component('IconTrashEmpty', require('./icons/IconTrashEmpty.vue').default)
-  app.component('IconTrashFull', require('./icons/IconTrashFull.vue').default)
-  app.component('IconTrendingDown', require('./icons/IconTrendingDown.vue').default)
-  app.component('IconTrendingUp', require('./icons/IconTrendingUp.vue').default)
-  app.component('IconAirplay', require('./icons/IconAirplay.vue').default)
-  app.component('IconChromecast', require('./icons/IconChromecast.vue').default)
-  app.component('IconFilm', require('./icons/IconFilm.vue').default)
-  app.component('IconForward', require('./icons/IconForward.vue').default)
-  app.component('IconHeadphones', require('./icons/IconHeadphones.vue').default)
-  app.component('IconImage01', require('./icons/IconImage01.vue').default)
-  app.component('IconImage02', require('./icons/IconImage02.vue').default)
-  app.component('IconMusic', require('./icons/IconMusic.vue').default)
-  app.component('IconPause', require('./icons/IconPause.vue').default)
-  app.component('IconPauseCircle', require('./icons/IconPauseCircle.vue').default)
-  app.component('IconPlay', require('./icons/IconPlay.vue').default)
-  app.component('IconPlayCircle', require('./icons/IconPlayCircle.vue').default)
-  app.component('IconRewind', require('./icons/IconRewind.vue').default)
-  app.component('IconShuffle', require('./icons/IconShuffle.vue').default)
-  app.component('IconSkipBack', require('./icons/IconSkipBack.vue').default)
-  app.component('IconSkipForward', require('./icons/IconSkipForward.vue').default)
-  app.component('IconStop', require('./icons/IconStop.vue').default)
-  app.component('IconStopCircle', require('./icons/IconStopCircle.vue').default)
-  app.component('IconVolumeMax', require('./icons/IconVolumeMax.vue').default)
-  app.component('IconVolumeMin', require('./icons/IconVolumeMin.vue').default)
-  app.component('IconVolumeMinus', require('./icons/IconVolumeMinus.vue').default)
-  app.component('IconVolumeOff', require('./icons/IconVolumeOff.vue').default)
-  app.component('IconVolumeOff02', require('./icons/IconVolumeOff02.vue').default)
-  app.component('IconVolumePlus', require('./icons/IconVolumePlus.vue').default)
-  app.component('IconCloseLg', require('./icons/IconCloseLg.vue').default)
-  app.component('IconCloseMd', require('./icons/IconCloseMd.vue').default)
-  app.component('IconCloseSm', require('./icons/IconCloseSm.vue').default)
-  app.component('IconHamburgerLg', require('./icons/IconHamburgerLg.vue').default)
-  app.component('IconHamburgerMd', require('./icons/IconHamburgerMd.vue').default)
-  app.component('IconMenuAlt01', require('./icons/IconMenuAlt01.vue').default)
-  app.component('IconMenuAlt02', require('./icons/IconMenuAlt02.vue').default)
-  app.component('IconMenuAlt03', require('./icons/IconMenuAlt03.vue').default)
-  app.component('IconMenuAlt04', require('./icons/IconMenuAlt04.vue').default)
-  app.component('IconMenuAlt05', require('./icons/IconMenuAlt05.vue').default)
-  app.component('IconMenuDuoLg', require('./icons/IconMenuDuoLg.vue').default)
-  app.component('IconMenuDuoMd', require('./icons/IconMenuDuoMd.vue').default)
-  app.component('IconMoreGridBig', require('./icons/IconMoreGridBig.vue').default)
-  app.component('IconMoreGridSmall', require('./icons/IconMoreGridSmall.vue').default)
-  app.component('IconMoreHorizontal', require('./icons/IconMoreHorizontal.vue').default)
-  app.component('IconMoreVertical', require('./icons/IconMoreVertical.vue').default)
-  app.component('IconBuilding01', require('./icons/IconBuilding01.vue').default)
-  app.component('IconBuilding02', require('./icons/IconBuilding02.vue').default)
-  app.component('IconBuilding03', require('./icons/IconBuilding03.vue').default)
-  app.component('IconBuilding04', require('./icons/IconBuilding04.vue').default)
-  app.component('IconBus', require('./icons/IconBus.vue').default)
-  app.component('IconCarAuto', require('./icons/IconCarAuto.vue').default)
-  app.component('IconCompass', require('./icons/IconCompass.vue').default)
-  app.component('IconFlag', require('./icons/IconFlag.vue').default)
-  app.component('IconGlobe', require('./icons/IconGlobe.vue').default)
-  app.component('IconHouse01', require('./icons/IconHouse01.vue').default)
-  app.component('IconHouse02', require('./icons/IconHouse02.vue').default)
-  app.component('IconHouse03', require('./icons/IconHouse03.vue').default)
-  app.component('IconHouseAdd', require('./icons/IconHouseAdd.vue').default)
-  app.component('IconHouseCheck', require('./icons/IconHouseCheck.vue').default)
-  app.component('IconHouseClose', require('./icons/IconHouseClose.vue').default)
-  app.component('IconHouseRemove', require('./icons/IconHouseRemove.vue').default)
-  app.component('IconMap', require('./icons/IconMap.vue').default)
-  app.component('IconMapPin', require('./icons/IconMapPin.vue').default)
-  app.component('IconNavigation', require('./icons/IconNavigation.vue').default)
-  app.component('IconTrain', require('./icons/IconTrain.vue').default)
-  app.component('IconCircle', require('./icons/IconCircle.vue').default)
-  app.component('IconOctagon', require('./icons/IconOctagon.vue').default)
-  app.component('IconShield', require('./icons/IconShield.vue').default)
-  app.component('IconSquare', require('./icons/IconSquare.vue').default)
-  app.component('IconTriangle', require('./icons/IconTriangle.vue').default)
-  app.component('IconWavy', require('./icons/IconWavy.vue').default)
-  app.component('IconBarBottom', require('./icons/IconBarBottom.vue').default)
-  app.component('IconBarLeft', require('./icons/IconBarLeft.vue').default)
-  app.component('IconBarRight', require('./icons/IconBarRight.vue').default)
-  app.component('IconBarTop', require('./icons/IconBarTop.vue').default)
-  app.component('IconCamera', require('./icons/IconCamera.vue').default)
-  app.component('IconCode', require('./icons/IconCode.vue').default)
-  app.component('IconCylinder', require('./icons/IconCylinder.vue').default)
-  app.component('IconData', require('./icons/IconData.vue').default)
-  app.component('IconDesktop', require('./icons/IconDesktop.vue').default)
-  app.component('IconDesktopTower', require('./icons/IconDesktopTower.vue').default)
-  app.component('IconDevices', require('./icons/IconDevices.vue').default)
-  app.component('IconKeyboard', require('./icons/IconKeyboard.vue').default)
-  app.component('IconLaptop', require('./icons/IconLaptop.vue').default)
-  app.component('IconMobile', require('./icons/IconMobile.vue').default)
-  app.component('IconMobileButton', require('./icons/IconMobileButton.vue').default)
-  app.component('IconMonitor', require('./icons/IconMonitor.vue').default)
-  app.component('IconMonitorPlay', require('./icons/IconMonitorPlay.vue').default)
-  app.component('IconMouse', require('./icons/IconMouse.vue').default)
-  app.component('IconMovingDesk', require('./icons/IconMovingDesk.vue').default)
-  app.component('IconPrinter', require('./icons/IconPrinter.vue').default)
-  app.component('IconQrCode', require('./icons/IconQrCode.vue').default)
-  app.component('IconSave', require('./icons/IconSave.vue').default)
-  app.component('IconTablet', require('./icons/IconTablet.vue').default)
-  app.component('IconTabletButton', require('./icons/IconTabletButton.vue').default)
-  app.component('IconTerminal', require('./icons/IconTerminal.vue').default)
-  app.component('IconWifiHigh', require('./icons/IconWifiHigh.vue').default)
-  app.component('IconWifiLow', require('./icons/IconWifiLow.vue').default)
-  app.component('IconWifiMedium', require('./icons/IconWifiMedium.vue').default)
-  app.component('IconWifiNone', require('./icons/IconWifiNone.vue').default)
-  app.component('IconWifiOff', require('./icons/IconWifiOff.vue').default)
-  app.component('IconWifiProblem', require('./icons/IconWifiProblem.vue').default)
-  app.component('IconWindow', require('./icons/IconWindow.vue').default)
-  app.component('IconWindowCheck', require('./icons/IconWindowCheck.vue').default)
-  app.component('IconWindowClose', require('./icons/IconWindowClose.vue').default)
-  app.component('IconWindowCodeBlock', require('./icons/IconWindowCodeBlock.vue').default)
-  app.component('IconWindowSidebar', require('./icons/IconWindowSidebar.vue').default)
-  app.component('IconWindowTerminal', require('./icons/IconWindowTerminal.vue').default)
-  app.component('IconUser01', require('./icons/IconUser01.vue').default)
-  app.component('IconUser02', require('./icons/IconUser02.vue').default)
-  app.component('IconUser03', require('./icons/IconUser03.vue').default)
-  app.component('IconUserAdd', require('./icons/IconUserAdd.vue').default)
-  app.component('IconUserCardId', require('./icons/IconUserCardId.vue').default)
-  app.component('IconUserCheck', require('./icons/IconUserCheck.vue').default)
-  app.component('IconUserCircle', require('./icons/IconUserCircle.vue').default)
-  app.component('IconUserClose', require('./icons/IconUserClose.vue').default)
-  app.component('IconUserHandHear', require('./icons/IconUserHandHear.vue').default)
-  app.component('IconUserRemove', require('./icons/IconUserRemove.vue').default)
-  app.component('IconUserSquare', require('./icons/IconUserSquare.vue').default)
-  app.component('IconUserVoice', require('./icons/IconUserVoice.vue').default)
-  app.component('IconUsers', require('./icons/IconUsers.vue').default)
-  app.component('IconUsersGroup', require('./icons/IconUsersGroup.vue').default)
-  app.component('IconCircleCheck', require('./icons/IconCircleCheck.vue').default)
-  app.component('IconCircleHelp', require('./icons/IconCircleHelp.vue').default)
-  app.component('IconCircleWarning', require('./icons/IconCircleWarning.vue').default)
-  app.component('IconHelp', require('./icons/IconHelp.vue').default)
-  app.component('IconInfo', require('./icons/IconInfo.vue').default)
-  app.component('IconOctagonCheck', require('./icons/IconOctagonCheck.vue').default)
-  app.component('IconOctagonHelp', require('./icons/IconOctagonHelp.vue').default)
-  app.component('IconOctagonWarning', require('./icons/IconOctagonWarning.vue').default)
-  app.component('IconShieldCheck', require('./icons/IconShieldCheck.vue').default)
-  app.component('IconShieldWarning', require('./icons/IconShieldWarning.vue').default)
-  app.component('IconSquareCheck', require('./icons/IconSquareCheck.vue').default)
-  app.component('IconSquareHelp', require('./icons/IconSquareHelp.vue').default)
-  app.component('IconSquareWarning', require('./icons/IconSquareWarning.vue').default)
-  app.component('IconStopSign', require('./icons/IconStopSign.vue').default)
-  app.component('IconTriangleCheck', require('./icons/IconTriangleCheck.vue').default)
-  app.component('IconTriangleWarning', require('./icons/IconTriangleWarning.vue').default)
-  app.component('IconWarning', require('./icons/IconWarning.vue').default)
-  app.component('IconWavyCheck', require('./icons/IconWavyCheck.vue').default)
-  app.component('IconWavyHelp', require('./icons/IconWavyHelp.vue').default)
-  app.component('IconWavyWarning', require('./icons/IconWavyWarning.vue').default)
+  app.component('IconArrowCircleDown', IconArrowCircleDown)
+  app.component('IconArrowCircleDownLeft', IconArrowCircleDownLeft)
+  app.component('IconArrowCircleDownRight', IconArrowCircleDownRight)
+  app.component('IconArrowCircleLeft', IconArrowCircleLeft)
+  app.component('IconArrowCircleRight', IconArrowCircleRight)
+  app.component('IconArrowCircleUp', IconArrowCircleUp)
+  app.component('IconArrowCircleUpLeft', IconArrowCircleUpLeft)
+  app.component('IconArrowCircleUpRight', IconArrowCircleUpRight)
+  app.component('IconArrowDownLg', IconArrowDownLg)
+  app.component('IconArrowDownLeftLg', IconArrowDownLeftLg)
+  app.component('IconArrowDownLeftMd', IconArrowDownLeftMd)
+  app.component('IconArrowDownLeftSm', IconArrowDownLeftSm)
+  app.component('IconArrowDownMd', IconArrowDownMd)
+  app.component('IconArrowDownRightLg', IconArrowDownRightLg)
+  app.component('IconArrowDownRightMd', IconArrowDownRightMd)
+  app.component('IconArrowDownRightSm', IconArrowDownRightSm)
+  app.component('IconArrowDownSm', IconArrowDownSm)
+  app.component('IconArrowDownUp', IconArrowDownUp)
+  app.component('IconArrowLeftLg', IconArrowLeftLg)
+  app.component('IconArrowLeftMd', IconArrowLeftMd)
+  app.component('IconArrowLeftRight', IconArrowLeftRight)
+  app.component('IconArrowLeftSm', IconArrowLeftSm)
+  app.component('IconArrowReload02', IconArrowReload02)
+  app.component('IconArrowRightLg', IconArrowRightLg)
+  app.component('IconArrowRightMd', IconArrowRightMd)
+  app.component('IconArrowRightSm', IconArrowRightSm)
+  app.component('IconArrowSubDownLeft', IconArrowSubDownLeft)
+  app.component('IconArrowSubDownRight', IconArrowSubDownRight)
+  app.component('IconArrowSubLeftDown', IconArrowSubLeftDown)
+  app.component('IconArrowSubLeftUp', IconArrowSubLeftUp)
+  app.component('IconArrowSubRightDown', IconArrowSubRightDown)
+  app.component('IconArrowSubRightUp', IconArrowSubRightUp)
+  app.component('IconArrowSubUpLeft', IconArrowSubUpLeft)
+  app.component('IconArrowSubUpRight', IconArrowSubUpRight)
+  app.component('IconArrowUndoDownLeft', IconArrowUndoDownLeft)
+  app.component('IconArrowUndoDownRight', IconArrowUndoDownRight)
+  app.component('IconArrowUndoUpLeft', IconArrowUndoUpLeft)
+  app.component('IconArrowUndoUpRight', IconArrowUndoUpRight)
+  app.component('IconArrowUpLg', IconArrowUpLg)
+  app.component('IconArrowUpLeftLg', IconArrowUpLeftLg)
+  app.component('IconArrowUpLeftMd', IconArrowUpLeftMd)
+  app.component('IconArrowUpLeftSm', IconArrowUpLeftSm)
+  app.component('IconArrowUpMd', IconArrowUpMd)
+  app.component('IconArrowUpRightLg', IconArrowUpRightLg)
+  app.component('IconArrowUpRightMd', IconArrowUpRightMd)
+  app.component('IconArrowUpRightSm', IconArrowUpRightSm)
+  app.component('IconArrowUpSm', IconArrowUpSm)
+  app.component('IconArrowsReload01', IconArrowsReload01)
+  app.component('IconCaretCircleDown', IconCaretCircleDown)
+  app.component('IconCaretCircleLeft', IconCaretCircleLeft)
+  app.component('IconCaretCircleRight', IconCaretCircleRight)
+  app.component('IconCaretCircleUp', IconCaretCircleUp)
+  app.component('IconCaretDownMd', IconCaretDownMd)
+  app.component('IconCaretDownSm', IconCaretDownSm)
+  app.component('IconCaretLeftSm', IconCaretLeftSm)
+  app.component('IconCaretRightSm', IconCaretRightSm)
+  app.component('IconCaretUpMd', IconCaretUpMd)
+  app.component('IconCaretUpSm', IconCaretUpSm)
+  app.component('IconChevronDown', IconChevronDown)
+  app.component('IconChevronDownDuo', IconChevronDownDuo)
+  app.component('IconChevronLeft', IconChevronLeft)
+  app.component('IconChevronLeftDuo', IconChevronLeftDuo)
+  app.component('IconChevronLeftMd', IconChevronLeftMd)
+  app.component('IconChevronRight', IconChevronRight)
+  app.component('IconChevronRightDuo', IconChevronRightDuo)
+  app.component('IconChevronRightMd', IconChevronRightMd)
+  app.component('IconChevronUp', IconChevronUp)
+  app.component('IconChevronUpDuo', IconChevronUpDuo)
+  app.component('IconExpand', IconExpand)
+  app.component('IconShrink', IconShrink)
+  app.component('IconUnfoldLess', IconUnfoldLess)
+  app.component('IconUnfoldMore', IconUnfoldMore)
+  app.component('IconAlarm', IconAlarm)
+  app.component('IconCalendar', IconCalendar)
+  app.component('IconCalendarAdd', IconCalendarAdd)
+  app.component('IconCalendarCheck', IconCalendarCheck)
+  app.component('IconCalendarClose', IconCalendarClose)
+  app.component('IconCalendarDays', IconCalendarDays)
+  app.component('IconCalendarEvent', IconCalendarEvent)
+  app.component('IconCalendarRemove', IconCalendarRemove)
+  app.component('IconCalendarWeek', IconCalendarWeek)
+  app.component('IconClock', IconClock)
+  app.component('IconTimer', IconTimer)
+  app.component('IconTimerAdd', IconTimerAdd)
+  app.component('IconTimerClose', IconTimerClose)
+  app.component('IconTimerRemove', IconTimerRemove)
+  app.component('IconBell', IconBell)
+  app.component('IconBellAdd', IconBellAdd)
+  app.component('IconBellClose', IconBellClose)
+  app.component('IconBellNotification', IconBellNotification)
+  app.component('IconBellOff', IconBellOff)
+  app.component('IconBellRemove', IconBellRemove)
+  app.component('IconBellRing', IconBellRing)
+  app.component('IconChat', IconChat)
+  app.component('IconChatAdd', IconChatAdd)
+  app.component('IconChatCheck', IconChatCheck)
+  app.component('IconChatCircle', IconChatCircle)
+  app.component('IconChatCircleAdd', IconChatCircleAdd)
+  app.component('IconChatCircleCheck', IconChatCircleCheck)
+  app.component('IconChatCircleClose', IconChatCircleClose)
+  app.component('IconChatCircleDots', IconChatCircleDots)
+  app.component('IconChatCircleRemove', IconChatCircleRemove)
+  app.component('IconChatClose', IconChatClose)
+  app.component('IconChatConversation', IconChatConversation)
+  app.component('IconChatConversationCircle', IconChatConversationCircle)
+  app.component('IconChatDots', IconChatDots)
+  app.component('IconChatRemove', IconChatRemove)
+  app.component('IconMail', IconMail)
+  app.component('IconMailOpen', IconMailOpen)
+  app.component('IconPaperPlane', IconPaperPlane)
+  app.component('IconPhone', IconPhone)
+  app.component('IconShareAndroid', IconShareAndroid)
+  app.component('IconShareIosExport', IconShareIosExport)
+  app.component('IconAddColumn', IconAddColumn)
+  app.component('IconAddMinusSquare', IconAddMinusSquare)
+  app.component('IconAddPlus', IconAddPlus)
+  app.component('IconAddPlusCircle', IconAddPlusCircle)
+  app.component('IconAddPlusSquare', IconAddPlusSquare)
+  app.component('IconAddRow', IconAddRow)
+  app.component('IconAddToQueue', IconAddToQueue)
+  app.component('IconBold', IconBold)
+  app.component('IconCloseCircle', IconCloseCircle)
+  app.component('IconCloseSquare', IconCloseSquare)
+  app.component('IconColumns', IconColumns)
+  app.component('IconCombineCells', IconCombineCells)
+  app.component('IconCopy', IconCopy)
+  app.component('IconCrop', IconCrop)
+  app.component('IconDeleteColumn', IconDeleteColumn)
+  app.component('IconDeleteRow', IconDeleteRow)
+  app.component('IconDoubleQuotesL', IconDoubleQuotesL)
+  app.component('IconDoubleQuotesR', IconDoubleQuotesR)
+  app.component('IconEditPencil01', IconEditPencil01)
+  app.component('IconEditPencil02', IconEditPencil02)
+  app.component('IconEditPencilLine01', IconEditPencilLine01)
+  app.component('IconEditPencilLine02', IconEditPencilLine02)
+  app.component('IconFigma', IconFigma)
+  app.component('IconFont', IconFont)
+  app.component('IconHeading', IconHeading)
+  app.component('IconHeadingH1', IconHeadingH1)
+  app.component('IconHeadingH2', IconHeadingH2)
+  app.component('IconHeadingH3', IconHeadingH3)
+  app.component('IconHeadingH4', IconHeadingH4)
+  app.component('IconHeadingH5', IconHeadingH5)
+  app.component('IconHeadingH6', IconHeadingH6)
+  app.component('IconHide', IconHide)
+  app.component('IconItalic', IconItalic)
+  app.component('IconLayer', IconLayer)
+  app.component('IconLayers', IconLayers)
+  app.component('IconListAdd', IconListAdd)
+  app.component('IconListCheck', IconListCheck)
+  app.component('IconListChecklist', IconListChecklist)
+  app.component('IconListOrdered', IconListOrdered)
+  app.component('IconListRemove', IconListRemove)
+  app.component('IconListUnordered', IconListUnordered)
+  app.component('IconMention', IconMention)
+  app.component('IconMove', IconMove)
+  app.component('IconMoveHorizontal', IconMoveHorizontal)
+  app.component('IconMoveVertical', IconMoveVertical)
+  app.component('IconPaperclipAttechmentHorizontal', IconPaperclipAttechmentHorizontal)
+  app.component('IconPaperclipAttechmentTilt', IconPaperclipAttechmentTilt)
+  app.component('IconParagraph', IconParagraph)
+  app.component('IconPath', IconPath)
+  app.component('IconRedo', IconRedo)
+  app.component('IconRemoveMinus', IconRemoveMinus)
+  app.component('IconRemoveMinusCircle', IconRemoveMinusCircle)
+  app.component('IconRows', IconRows)
+  app.component('IconRuler', IconRuler)
+  app.component('IconSelectMultiple', IconSelectMultiple)
+  app.component('IconShow', IconShow)
+  app.component('IconSingleQuotesL', IconSingleQuotesL)
+  app.component('IconSingleQuotesR', IconSingleQuotesR)
+  app.component('IconSortAscending', IconSortAscending)
+  app.component('IconSortDescending', IconSortDescending)
+  app.component('IconStrikethrough', IconStrikethrough)
+  app.component('IconSwatchesPalette', IconSwatchesPalette)
+  app.component('IconTable', IconTable)
+  app.component('IconTableAdd', IconTableAdd)
+  app.component('IconTableRemove', IconTableRemove)
+  app.component('IconText', IconText)
+  app.component('IconTextAlignCenter', IconTextAlignCenter)
+  app.component('IconTextAlignJustify', IconTextAlignJustify)
+  app.component('IconTextAlignLeft', IconTextAlignLeft)
+  app.component('IconTextAlignRight', IconTextAlignRight)
+  app.component('IconUnderline', IconUnderline)
+  app.component('IconUndo', IconUndo)
+  app.component('IconAgricultural', IconAgricultural)
+  app.component('IconBulb', IconBulb)
+  app.component('IconCamping', IconCamping)
+  app.component('IconCoffeToGo', IconCoffeToGo)
+  app.component('IconCoffee', IconCoffee)
+  app.component('IconCookie', IconCookie)
+  app.component('IconCultural', IconCultural)
+  app.component('IconCupcake', IconCupcake)
+  app.component('IconFire', IconFire)
+  app.component('IconFirstAid', IconFirstAid)
+  app.component('IconLeaf', IconLeaf)
+  app.component('IconMoon', IconMoon)
+  app.component('IconMountain', IconMountain)
+  app.component('IconPlanet', IconPlanet)
+  app.component('IconPuzzle', IconPuzzle)
+  app.component('IconRainbow', IconRainbow)
+  app.component('IconSea', IconSea)
+  app.component('IconShovel', IconShovel)
+  app.component('IconSnowflake', IconSnowflake)
+  app.component('IconSun', IconSun)
+  app.component('IconSunrise', IconSunrise)
+  app.component('IconThermometer', IconThermometer)
+  app.component('IconTree', IconTree)
+  app.component('IconValley', IconValley)
+  app.component('IconWaterDrop', IconWaterDrop)
+  app.component('IconArchive', IconArchive)
+  app.component('IconCloud', IconCloud)
+  app.component('IconCloudAdd', IconCloudAdd)
+  app.component('IconCloudCheck', IconCloudCheck)
+  app.component('IconCloudClose', IconCloudClose)
+  app.component('IconCloudDownload', IconCloudDownload)
+  app.component('IconCloudOff', IconCloudOff)
+  app.component('IconCloudRemove', IconCloudRemove)
+  app.component('IconCloudUpload', IconCloudUpload)
+  app.component('IconDownloadPackage', IconDownloadPackage)
+  app.component('IconFileAdd', IconFileAdd)
+  app.component('IconFileBlank', IconFileBlank)
+  app.component('IconFileCheck', IconFileCheck)
+  app.component('IconFileClose', IconFileClose)
+  app.component('IconFileCode', IconFileCode)
+  app.component('IconFileDocument', IconFileDocument)
+  app.component('IconFileDownload', IconFileDownload)
+  app.component('IconFileEdit', IconFileEdit)
+  app.component('IconFileRemove', IconFileRemove)
+  app.component('IconFileSearch', IconFileSearch)
+  app.component('IconFileUpload', IconFileUpload)
+  app.component('IconFiles', IconFiles)
+  app.component('IconFolder', IconFolder)
+  app.component('IconFolderAdd', IconFolderAdd)
+  app.component('IconFolderCheck', IconFolderCheck)
+  app.component('IconFolderClose', IconFolderClose)
+  app.component('IconFolderCode', IconFolderCode)
+  app.component('IconFolderDocument', IconFolderDocument)
+  app.component('IconFolderDownload', IconFolderDownload)
+  app.component('IconFolderEdit', IconFolderEdit)
+  app.component('IconFolderOpen', IconFolderOpen)
+  app.component('IconFolderRemove', IconFolderRemove)
+  app.component('IconFolderSearch', IconFolderSearch)
+  app.component('IconFolderUpload', IconFolderUpload)
+  app.component('IconFolders', IconFolders)
+  app.component('IconNote', IconNote)
+  app.component('IconNoteEdit', IconNoteEdit)
+  app.component('IconNoteSearch', IconNoteSearch)
+  app.component('IconNotebook', IconNotebook)
+  app.component('IconBook', IconBook)
+  app.component('IconBookOpen', IconBookOpen)
+  app.component('IconBookmark', IconBookmark)
+  app.component('IconChartBarHorizontal01', IconChartBarHorizontal01)
+  app.component('IconChartBarVertical01', IconChartBarVertical01)
+  app.component('IconChartLine', IconChartLine)
+  app.component('IconChartPie', IconChartPie)
+  app.component('IconCheck', IconCheck)
+  app.component('IconCheckAll', IconCheckAll)
+  app.component('IconCheckAllBig', IconCheckAllBig)
+  app.component('IconCheckBig', IconCheckBig)
+  app.component('IconCheckboxCheck', IconCheckboxCheck)
+  app.component('IconCheckboxFill', IconCheckboxFill)
+  app.component('IconCheckboxUnchecked', IconCheckboxUnchecked)
+  app.component('IconCommand', IconCommand)
+  app.component('IconConfetti', IconConfetti)
+  app.component('IconCreditCard01', IconCreditCard01)
+  app.component('IconCreditCard02', IconCreditCard02)
+  app.component('IconCrown', IconCrown)
+  app.component('IconDiamond', IconDiamond)
+  app.component('IconDownload', IconDownload)
+  app.component('IconDragHorizontal', IconDragHorizontal)
+  app.component('IconDragVertical', IconDragVertical)
+  app.component('IconDummyCircle', IconDummyCircle)
+  app.component('IconDummyCircleSmall', IconDummyCircleSmall)
+  app.component('IconDummySquare', IconDummySquare)
+  app.component('IconDummySquareSmall', IconDummySquareSmall)
+  app.component('IconExit', IconExit)
+  app.component('IconExternalLink', IconExternalLink)
+  app.component('IconFilter', IconFilter)
+  app.component('IconFilterOff', IconFilterOff)
+  app.component('IconGift', IconGift)
+  app.component('IconHandbag', IconHandbag)
+  app.component('IconHeart01', IconHeart01)
+  app.component('IconHeart02', IconHeart02)
+  app.component('IconInstance', IconInstance)
+  app.component('IconLabel', IconLabel)
+  app.component('IconLineL', IconLineL)
+  app.component('IconLineM', IconLineM)
+  app.component('IconLineS', IconLineS)
+  app.component('IconLineXl', IconLineXl)
+  app.component('IconLink', IconLink)
+  app.component('IconLinkBreak', IconLinkBreak)
+  app.component('IconLinkHorizontal', IconLinkHorizontal)
+  app.component('IconLinkHorizontalOff', IconLinkHorizontalOff)
+  app.component('IconLinkVertical', IconLinkVertical)
+  app.component('IconLoading', IconLoading)
+  app.component('IconLock', IconLock)
+  app.component('IconLockOpen', IconLockOpen)
+  app.component('IconLogOut', IconLogOut)
+  app.component('IconMagnifyingGlassMinus', IconMagnifyingGlassMinus)
+  app.component('IconMagnifyingGlassPlus', IconMagnifyingGlassPlus)
+  app.component('IconMainComponent', IconMainComponent)
+  app.component('IconOption', IconOption)
+  app.component('IconRadioFill', IconRadioFill)
+  app.component('IconRadioUnchecked', IconRadioUnchecked)
+  app.component('IconSearchMagnifyingGlass', IconSearchMagnifyingGlass)
+  app.component('IconSettings', IconSettings)
+  app.component('IconSettingsFuture', IconSettingsFuture)
+  app.component('IconShare', IconShare)
+  app.component('IconShoppingBag01', IconShoppingBag01)
+  app.component('IconShoppingBag02', IconShoppingBag02)
+  app.component('IconShoppingCart01', IconShoppingCart01)
+  app.component('IconShoppingCart02', IconShoppingCart02)
+  app.component('IconSlider01', IconSlider01)
+  app.component('IconSlider02', IconSlider02)
+  app.component('IconSlider03', IconSlider03)
+  app.component('IconStar', IconStar)
+  app.component('IconSuitcase', IconSuitcase)
+  app.component('IconSwichtLeft', IconSwichtLeft)
+  app.component('IconSwichtRight', IconSwichtRight)
+  app.component('IconTag', IconTag)
+  app.component('IconTicketVoucher', IconTicketVoucher)
+  app.component('IconTrashEmpty', IconTrashEmpty)
+  app.component('IconTrashFull', IconTrashFull)
+  app.component('IconTrendingDown', IconTrendingDown)
+  app.component('IconTrendingUp', IconTrendingUp)
+  app.component('IconAirplay', IconAirplay)
+  app.component('IconChromecast', IconChromecast)
+  app.component('IconFilm', IconFilm)
+  app.component('IconForward', IconForward)
+  app.component('IconHeadphones', IconHeadphones)
+  app.component('IconImage01', IconImage01)
+  app.component('IconImage02', IconImage02)
+  app.component('IconMusic', IconMusic)
+  app.component('IconPause', IconPause)
+  app.component('IconPauseCircle', IconPauseCircle)
+  app.component('IconPlay', IconPlay)
+  app.component('IconPlayCircle', IconPlayCircle)
+  app.component('IconRewind', IconRewind)
+  app.component('IconShuffle', IconShuffle)
+  app.component('IconSkipBack', IconSkipBack)
+  app.component('IconSkipForward', IconSkipForward)
+  app.component('IconStop', IconStop)
+  app.component('IconStopCircle', IconStopCircle)
+  app.component('IconVolumeMax', IconVolumeMax)
+  app.component('IconVolumeMin', IconVolumeMin)
+  app.component('IconVolumeMinus', IconVolumeMinus)
+  app.component('IconVolumeOff', IconVolumeOff)
+  app.component('IconVolumeOff02', IconVolumeOff02)
+  app.component('IconVolumePlus', IconVolumePlus)
+  app.component('IconCloseLg', IconCloseLg)
+  app.component('IconCloseMd', IconCloseMd)
+  app.component('IconCloseSm', IconCloseSm)
+  app.component('IconHamburgerLg', IconHamburgerLg)
+  app.component('IconHamburgerMd', IconHamburgerMd)
+  app.component('IconMenuAlt01', IconMenuAlt01)
+  app.component('IconMenuAlt02', IconMenuAlt02)
+  app.component('IconMenuAlt03', IconMenuAlt03)
+  app.component('IconMenuAlt04', IconMenuAlt04)
+  app.component('IconMenuAlt05', IconMenuAlt05)
+  app.component('IconMenuDuoLg', IconMenuDuoLg)
+  app.component('IconMenuDuoMd', IconMenuDuoMd)
+  app.component('IconMoreGridBig', IconMoreGridBig)
+  app.component('IconMoreGridSmall', IconMoreGridSmall)
+  app.component('IconMoreHorizontal', IconMoreHorizontal)
+  app.component('IconMoreVertical', IconMoreVertical)
+  app.component('IconBuilding01', IconBuilding01)
+  app.component('IconBuilding02', IconBuilding02)
+  app.component('IconBuilding03', IconBuilding03)
+  app.component('IconBuilding04', IconBuilding04)
+  app.component('IconBus', IconBus)
+  app.component('IconCarAuto', IconCarAuto)
+  app.component('IconCompass', IconCompass)
+  app.component('IconFlag', IconFlag)
+  app.component('IconGlobe', IconGlobe)
+  app.component('IconHouse01', IconHouse01)
+  app.component('IconHouse02', IconHouse02)
+  app.component('IconHouse03', IconHouse03)
+  app.component('IconHouseAdd', IconHouseAdd)
+  app.component('IconHouseCheck', IconHouseCheck)
+  app.component('IconHouseClose', IconHouseClose)
+  app.component('IconHouseRemove', IconHouseRemove)
+  app.component('IconMap', IconMap)
+  app.component('IconMapPin', IconMapPin)
+  app.component('IconNavigation', IconNavigation)
+  app.component('IconTrain', IconTrain)
+  app.component('IconCircle', IconCircle)
+  app.component('IconOctagon', IconOctagon)
+  app.component('IconShield', IconShield)
+  app.component('IconSquare', IconSquare)
+  app.component('IconTriangle', IconTriangle)
+  app.component('IconWavy', IconWavy)
+  app.component('IconBarBottom', IconBarBottom)
+  app.component('IconBarLeft', IconBarLeft)
+  app.component('IconBarRight', IconBarRight)
+  app.component('IconBarTop', IconBarTop)
+  app.component('IconCamera', IconCamera)
+  app.component('IconCode', IconCode)
+  app.component('IconCylinder', IconCylinder)
+  app.component('IconData', IconData)
+  app.component('IconDesktop', IconDesktop)
+  app.component('IconDesktopTower', IconDesktopTower)
+  app.component('IconDevices', IconDevices)
+  app.component('IconKeyboard', IconKeyboard)
+  app.component('IconLaptop', IconLaptop)
+  app.component('IconMobile', IconMobile)
+  app.component('IconMobileButton', IconMobileButton)
+  app.component('IconMonitor', IconMonitor)
+  app.component('IconMonitorPlay', IconMonitorPlay)
+  app.component('IconMouse', IconMouse)
+  app.component('IconMovingDesk', IconMovingDesk)
+  app.component('IconPrinter', IconPrinter)
+  app.component('IconQrCode', IconQrCode)
+  app.component('IconSave', IconSave)
+  app.component('IconTablet', IconTablet)
+  app.component('IconTabletButton', IconTabletButton)
+  app.component('IconTerminal', IconTerminal)
+  app.component('IconWifiHigh', IconWifiHigh)
+  app.component('IconWifiLow', IconWifiLow)
+  app.component('IconWifiMedium', IconWifiMedium)
+  app.component('IconWifiNone', IconWifiNone)
+  app.component('IconWifiOff', IconWifiOff)
+  app.component('IconWifiProblem', IconWifiProblem)
+  app.component('IconWindow', IconWindow)
+  app.component('IconWindowCheck', IconWindowCheck)
+  app.component('IconWindowClose', IconWindowClose)
+  app.component('IconWindowCodeBlock', IconWindowCodeBlock)
+  app.component('IconWindowSidebar', IconWindowSidebar)
+  app.component('IconWindowTerminal', IconWindowTerminal)
+  app.component('IconUser01', IconUser01)
+  app.component('IconUser02', IconUser02)
+  app.component('IconUser03', IconUser03)
+  app.component('IconUserAdd', IconUserAdd)
+  app.component('IconUserCardId', IconUserCardId)
+  app.component('IconUserCheck', IconUserCheck)
+  app.component('IconUserCircle', IconUserCircle)
+  app.component('IconUserClose', IconUserClose)
+  app.component('IconUserHandHear', IconUserHandHear)
+  app.component('IconUserRemove', IconUserRemove)
+  app.component('IconUserSquare', IconUserSquare)
+  app.component('IconUserVoice', IconUserVoice)
+  app.component('IconUsers', IconUsers)
+  app.component('IconUsersGroup', IconUsersGroup)
+  app.component('IconCircleCheck', IconCircleCheck)
+  app.component('IconCircleHelp', IconCircleHelp)
+  app.component('IconCircleWarning', IconCircleWarning)
+  app.component('IconHelp', IconHelp)
+  app.component('IconInfo', IconInfo)
+  app.component('IconOctagonCheck', IconOctagonCheck)
+  app.component('IconOctagonHelp', IconOctagonHelp)
+  app.component('IconOctagonWarning', IconOctagonWarning)
+  app.component('IconShieldCheck', IconShieldCheck)
+  app.component('IconShieldWarning', IconShieldWarning)
+  app.component('IconSquareCheck', IconSquareCheck)
+  app.component('IconSquareHelp', IconSquareHelp)
+  app.component('IconSquareWarning', IconSquareWarning)
+  app.component('IconStopSign', IconStopSign)
+  app.component('IconTriangleCheck', IconTriangleCheck)
+  app.component('IconTriangleWarning', IconTriangleWarning)
+  app.component('IconWarning', IconWarning)
+  app.component('IconWavyCheck', IconWavyCheck)
+  app.component('IconWavyHelp', IconWavyHelp)
+  app.component('IconWavyWarning', IconWavyWarning)
 }
 
 export default { install }

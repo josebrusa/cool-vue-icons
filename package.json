@@ -22,8 +22,8 @@
     "ATTRIBUTION.md"
   ],
   "scripts": {
-    "generate:icons": "node ./scripts/generate-icons.js",
-    "generate:readme": "node ./scripts/generate-readme-catalog.js",
+    "generate:icons": "node ./scripts/generate-icons.cjs",
+    "generate:readme": "node ./scripts/generate-readme-catalog.cjs",
     "generate:all": "npm run generate:icons && npm run generate:readme",
     "dev": "vite",
     "build": "npm run generate:all && vite build",

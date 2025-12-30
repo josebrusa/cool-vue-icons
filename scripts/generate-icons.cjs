@@ -81,16 +81,21 @@ export default defineComponent({
 })
 
 // Generate index file with all exports
+const imports = generatedIcons.map(icon => `import ${icon.name} from './icons/${icon.name}.vue'`).join('\n')
+const exportsList = generatedIcons.map(icon => `export { default as ${icon.name} } from './icons/${icon.name}.vue'`).join('\n')
+
 const indexContent = `// Auto-generated file - do not edit manually
 // Run 'npm run generate:icons' to regenerate
 
 import { App } from 'vue'
 
-${generatedIcons.map(icon => `export { default as ${icon.name} } from './icons/${icon.name}.vue'`).join('\n')}
+${imports}
+
+${exportsList}
 
 // Install function to register all components globally
 export function install(app: App) {
-${generatedIcons.map(icon => `  app.component('${icon.name}', require('./icons/${icon.name}.vue').default)`).join('\n')}
+${generatedIcons.map(icon => `  app.component('${icon.name}', ${icon.name})`).join('\n')}
 }
 
 export default { install }
