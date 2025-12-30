@@ -23,8 +23,10 @@
   ],
   "scripts": {
     "generate:icons": "node ./scripts/generate-icons.js",
+    "generate:readme": "node ./scripts/generate-readme-catalog.js",
+    "generate:all": "npm run generate:icons && npm run generate:readme",
     "dev": "vite",
-    "build": "npm run generate:icons && vite build",
+    "build": "npm run generate:all && vite build",
     "test": "vitest",
     "lint": "eslint --ext .ts,.vue src",
     "prepare": "npm run build"
