@@ -1,6 +1,6 @@
 {
   "name": "cool-vue-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Biblioteca de iconos como componentes Vue (Vue 3 + TypeScript). Iconos basados en coolicons por Kryston Schwarze.",
   "readme": "README.md",
   "main": "dist/index.umd.js",
