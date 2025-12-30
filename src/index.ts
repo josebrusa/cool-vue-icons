@@ -331,10 +331,12 @@ export { default as IconTrendingDown } from './icons/IconTrendingDown.vue'
 export { default as IconTrendingUp } from './icons/IconTrendingUp.vue'
 export { default as IconAirplay } from './icons/IconAirplay.vue'
 export { default as IconChromecast } from './icons/IconChromecast.vue'
+export { default as IconFilm } from './icons/IconFilm.vue'
 export { default as IconForward } from './icons/IconForward.vue'
 export { default as IconHeadphones } from './icons/IconHeadphones.vue'
 export { default as IconImage01 } from './icons/IconImage01.vue'
 export { default as IconImage02 } from './icons/IconImage02.vue'
+export { default as IconMusic } from './icons/IconMusic.vue'
 export { default as IconPause } from './icons/IconPause.vue'
 export { default as IconPauseCircle } from './icons/IconPauseCircle.vue'
 export { default as IconPlay } from './icons/IconPlay.vue'
@@ -371,6 +373,7 @@ export { default as IconBuilding01 } from './icons/IconBuilding01.vue'
 export { default as IconBuilding02 } from './icons/IconBuilding02.vue'
 export { default as IconBuilding03 } from './icons/IconBuilding03.vue'
 export { default as IconBuilding04 } from './icons/IconBuilding04.vue'
+export { default as IconBus } from './icons/IconBus.vue'
 export { default as IconCarAuto } from './icons/IconCarAuto.vue'
 export { default as IconCompass } from './icons/IconCompass.vue'
 export { default as IconFlag } from './icons/IconFlag.vue'
@@ -385,6 +388,7 @@ export { default as IconHouseRemove } from './icons/IconHouseRemove.vue'
 export { default as IconMap } from './icons/IconMap.vue'
 export { default as IconMapPin } from './icons/IconMapPin.vue'
 export { default as IconNavigation } from './icons/IconNavigation.vue'
+export { default as IconTrain } from './icons/IconTrain.vue'
 export { default as IconCircle } from './icons/IconCircle.vue'
 export { default as IconOctagon } from './icons/IconOctagon.vue'
 export { default as IconShield } from './icons/IconShield.vue'
@@ -436,6 +440,7 @@ export { default as IconUserCardId } from './icons/IconUserCardId.vue'
 export { default as IconUserCheck } from './icons/IconUserCheck.vue'
 export { default as IconUserCircle } from './icons/IconUserCircle.vue'
 export { default as IconUserClose } from './icons/IconUserClose.vue'
+export { default as IconUserHandHear } from './icons/IconUserHandHear.vue'
 export { default as IconUserRemove } from './icons/IconUserRemove.vue'
 export { default as IconUserSquare } from './icons/IconUserSquare.vue'
 export { default as IconUserVoice } from './icons/IconUserVoice.vue'
@@ -792,10 +797,12 @@ export function install(app: App) {
   app.component('IconTrendingUp', require('./icons/IconTrendingUp.vue').default)
   app.component('IconAirplay', require('./icons/IconAirplay.vue').default)
   app.component('IconChromecast', require('./icons/IconChromecast.vue').default)
+  app.component('IconFilm', require('./icons/IconFilm.vue').default)
   app.component('IconForward', require('./icons/IconForward.vue').default)
   app.component('IconHeadphones', require('./icons/IconHeadphones.vue').default)
   app.component('IconImage01', require('./icons/IconImage01.vue').default)
   app.component('IconImage02', require('./icons/IconImage02.vue').default)
+  app.component('IconMusic', require('./icons/IconMusic.vue').default)
   app.component('IconPause', require('./icons/IconPause.vue').default)
   app.component('IconPauseCircle', require('./icons/IconPauseCircle.vue').default)
   app.component('IconPlay', require('./icons/IconPlay.vue').default)
@@ -832,6 +839,7 @@ export function install(app: App) {
   app.component('IconBuilding02', require('./icons/IconBuilding02.vue').default)
   app.component('IconBuilding03', require('./icons/IconBuilding03.vue').default)
   app.component('IconBuilding04', require('./icons/IconBuilding04.vue').default)
+  app.component('IconBus', require('./icons/IconBus.vue').default)
   app.component('IconCarAuto', require('./icons/IconCarAuto.vue').default)
   app.component('IconCompass', require('./icons/IconCompass.vue').default)
   app.component('IconFlag', require('./icons/IconFlag.vue').default)
@@ -846,6 +854,7 @@ export function install(app: App) {
   app.component('IconMap', require('./icons/IconMap.vue').default)
   app.component('IconMapPin', require('./icons/IconMapPin.vue').default)
   app.component('IconNavigation', require('./icons/IconNavigation.vue').default)
+  app.component('IconTrain', require('./icons/IconTrain.vue').default)
   app.component('IconCircle', require('./icons/IconCircle.vue').default)
   app.component('IconOctagon', require('./icons/IconOctagon.vue').default)
   app.component('IconShield', require('./icons/IconShield.vue').default)
@@ -897,6 +906,7 @@ export function install(app: App) {
   app.component('IconUserCheck', require('./icons/IconUserCheck.vue').default)
   app.component('IconUserCircle', require('./icons/IconUserCircle.vue').default)
   app.component('IconUserClose', require('./icons/IconUserClose.vue').default)
+  app.component('IconUserHandHear', require('./icons/IconUserHandHear.vue').default)
   app.component('IconUserRemove', require('./icons/IconUserRemove.vue').default)
   app.component('IconUserSquare', require('./icons/IconUserSquare.vue').default)
   app.component('IconUserVoice', require('./icons/IconUserVoice.vue').default)
