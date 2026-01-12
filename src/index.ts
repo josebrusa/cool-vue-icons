@@ -305,6 +305,7 @@ import IconLogOutComponent from './icons/IconLogOut.vue'
 import IconMagnifyingGlassMinusComponent from './icons/IconMagnifyingGlassMinus.vue'
 import IconMagnifyingGlassPlusComponent from './icons/IconMagnifyingGlassPlus.vue'
 import IconMainComponentComponent from './icons/IconMainComponent.vue'
+import IconMoneyComponent from './icons/IconMoney.vue'
 import IconOptionComponent from './icons/IconOption.vue'
 import IconRadioFillComponent from './icons/IconRadioFill.vue'
 import IconRadioUncheckedComponent from './icons/IconRadioUnchecked.vue'
@@ -395,6 +396,15 @@ import IconShieldComponent from './icons/IconShield.vue'
 import IconSquareComponent from './icons/IconSquare.vue'
 import IconTriangleComponent from './icons/IconTriangle.vue'
 import IconWavyComponent from './icons/IconWavy.vue'
+import IconAppleComponent from './icons/IconApple.vue'
+import IconFacebookComponent from './icons/IconFacebook.vue'
+import IconGoogleComponent from './icons/IconGoogle.vue'
+import IconInstagramComponent from './icons/IconInstagram.vue'
+import IconLinkedinComponent from './icons/IconLinkedin.vue'
+import IconTelegramComponent from './icons/IconTelegram.vue'
+import IconTwitterComponent from './icons/IconTwitter.vue'
+import IconWhatsappComponent from './icons/IconWhatsapp.vue'
+import IconYoutubeComponent from './icons/IconYoutube.vue'
 import IconBarBottomComponent from './icons/IconBarBottom.vue'
 import IconBarLeftComponent from './icons/IconBarLeft.vue'
 import IconBarRightComponent from './icons/IconBarRight.vue'
@@ -769,6 +779,7 @@ const IconLogOut = markRaw(IconLogOutComponent)
 const IconMagnifyingGlassMinus = markRaw(IconMagnifyingGlassMinusComponent)
 const IconMagnifyingGlassPlus = markRaw(IconMagnifyingGlassPlusComponent)
 const IconMainComponent = markRaw(IconMainComponentComponent)
+const IconMoney = markRaw(IconMoneyComponent)
 const IconOption = markRaw(IconOptionComponent)
 const IconRadioFill = markRaw(IconRadioFillComponent)
 const IconRadioUnchecked = markRaw(IconRadioUncheckedComponent)
@@ -859,6 +870,15 @@ const IconShield = markRaw(IconShieldComponent)
 const IconSquare = markRaw(IconSquareComponent)
 const IconTriangle = markRaw(IconTriangleComponent)
 const IconWavy = markRaw(IconWavyComponent)
+const IconApple = markRaw(IconAppleComponent)
+const IconFacebook = markRaw(IconFacebookComponent)
+const IconGoogle = markRaw(IconGoogleComponent)
+const IconInstagram = markRaw(IconInstagramComponent)
+const IconLinkedin = markRaw(IconLinkedinComponent)
+const IconTelegram = markRaw(IconTelegramComponent)
+const IconTwitter = markRaw(IconTwitterComponent)
+const IconWhatsapp = markRaw(IconWhatsappComponent)
+const IconYoutube = markRaw(IconYoutubeComponent)
 const IconBarBottom = markRaw(IconBarBottomComponent)
 const IconBarLeft = markRaw(IconBarLeftComponent)
 const IconBarRight = markRaw(IconBarRightComponent)
@@ -1233,6 +1253,7 @@ export { IconLogOut }
 export { IconMagnifyingGlassMinus }
 export { IconMagnifyingGlassPlus }
 export { IconMainComponent }
+export { IconMoney }
 export { IconOption }
 export { IconRadioFill }
 export { IconRadioUnchecked }
@@ -1323,6 +1344,15 @@ export { IconShield }
 export { IconSquare }
 export { IconTriangle }
 export { IconWavy }
+export { IconApple }
+export { IconFacebook }
+export { IconGoogle }
+export { IconInstagram }
+export { IconLinkedin }
+export { IconTelegram }
+export { IconTwitter }
+export { IconWhatsapp }
+export { IconYoutube }
 export { IconBarBottom }
 export { IconBarLeft }
 export { IconBarRight }
@@ -1699,6 +1729,7 @@ export function install(app: App) {
   app.component('IconMagnifyingGlassMinus', IconMagnifyingGlassMinus)
   app.component('IconMagnifyingGlassPlus', IconMagnifyingGlassPlus)
   app.component('IconMainComponent', IconMainComponent)
+  app.component('IconMoney', IconMoney)
   app.component('IconOption', IconOption)
   app.component('IconRadioFill', IconRadioFill)
   app.component('IconRadioUnchecked', IconRadioUnchecked)
@@ -1789,6 +1820,15 @@ export function install(app: App) {
   app.component('IconSquare', IconSquare)
   app.component('IconTriangle', IconTriangle)
   app.component('IconWavy', IconWavy)
+  app.component('IconApple', IconApple)
+  app.component('IconFacebook', IconFacebook)
+  app.component('IconGoogle', IconGoogle)
+  app.component('IconInstagram', IconInstagram)
+  app.component('IconLinkedin', IconLinkedin)
+  app.component('IconTelegram', IconTelegram)
+  app.component('IconTwitter', IconTwitter)
+  app.component('IconWhatsapp', IconWhatsapp)
+  app.component('IconYoutube', IconYoutube)
   app.component('IconBarBottom', IconBarBottom)
   app.component('IconBarLeft', IconBarLeft)
   app.component('IconBarRight', IconBarRight)

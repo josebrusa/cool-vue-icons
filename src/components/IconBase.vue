@@ -6,6 +6,7 @@
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     :class="customClass"
+    :style="colorStyle"
     v-bind="$attrs"
     role="img"
     :aria-hidden="ariaHidden"
@@ -15,7 +16,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
+import { defineComponent, computed } from 'vue'
 
 export default defineComponent({
   name: 'IconBase',
@@ -35,6 +36,22 @@ export default defineComponent({
     ariaHidden: {
       type: Boolean,
       default: true
+    },
+    color: {
+      type: String,
+      default: '#111827'
+    }
+  },
+  setup(props) {
+    const colorStyle = computed(() => {
+      if (props.color) {
+        return { color: props.color }
+      }
+      return {}
+    })
+
+    return {
+      colorStyle
     }
   }
 })

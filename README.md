@@ -78,6 +78,11 @@ Todos los iconos aceptan las props de `IconBase`:
   <!-- Tamaño personalizado -->
   <IconArrowDown :size="32" />
   
+  <!-- Color personalizado con prop color -->
+  <IconCalendar color="#3b82f6" />
+  <IconBell color="red" />
+  <IconUser color="rgb(34, 197, 94)" />
+  
   <!-- Color personalizado con clases -->
   <IconCalendar customClass="text-blue-500" />
   
@@ -92,6 +97,7 @@ Todos los iconos aceptan las props de `IconBase`:
 ### Props disponibles:
 
 - `size`: Tamaño del icono (número o string, default: 24)
+- `color`: Color del icono (string, acepta cualquier valor CSS válido: hex, rgb, nombre de color, etc.)
 - `viewBox`: ViewBox del SVG (string, default: '0 0 24 24')
 - `customClass`: Clases CSS personalizadas (string, objeto o array)
 - `ariaHidden`: Ocultar del lector de pantalla (boolean, default: true)
@@ -114,6 +120,8 @@ La librería incluye más de 440 iconos organizados en categorías:
 - **[System](#system)** (37): Sistema y dispositivos
 - **[User](#user)** (13): Usuarios
 - **[Warning](#warning)** (20): Alertas y advertencias
+
+
 
 
 
@@ -1333,7 +1341,7 @@ La librería incluye más de 440 iconos organizados en categorías:
 </tbody>
 </table>
 
-<h3 id="interface">Interface (77 iconos)</h3>
+<h3 id="interface">Interface (78 iconos)</h3>
 
 <table>
 <tbody>
@@ -1585,11 +1593,15 @@ La librería incluye más de 440 iconos organizados en categorías:
 <code style="font-size: 0.85em;">IconMainComponent</code>
 </td>
 <td style="padding: 8px; vertical-align: middle;">
-<img src="cooliocns SVG/Interface/Option.svg" width="20" height="20" alt="IconOption" style="vertical-align: middle; margin-right: 8px;" />
-<code style="font-size: 0.85em;">IconOption</code>
+<img src="cooliocns SVG/Interface/Money.svg" width="20" height="20" alt="IconMoney" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconMoney</code>
 </td>
 </tr>
 <tr>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Interface/Option.svg" width="20" height="20" alt="IconOption" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconOption</code>
+</td>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Radio_Fill.svg" width="20" height="20" alt="IconRadioFill" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconRadioFill</code>
@@ -1598,12 +1610,12 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Radio_Unchecked.svg" width="20" height="20" alt="IconRadioUnchecked" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconRadioUnchecked</code>
 </td>
+</tr>
+<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Search_Magnifying_Glass.svg" width="20" height="20" alt="IconSearchMagnifyingGlass" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSearchMagnifyingGlass</code>
 </td>
-</tr>
-<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Settings.svg" width="20" height="20" alt="IconSettings" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSettings</code>
@@ -1612,12 +1624,12 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Settings_Future.svg" width="20" height="20" alt="IconSettingsFuture" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSettingsFuture</code>
 </td>
+</tr>
+<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Share.svg" width="20" height="20" alt="IconShare" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconShare</code>
 </td>
-</tr>
-<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Shopping_Bag_01.svg" width="20" height="20" alt="IconShoppingBag01" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconShoppingBag01</code>
@@ -1626,12 +1638,12 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Shopping_Bag_02.svg" width="20" height="20" alt="IconShoppingBag02" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconShoppingBag02</code>
 </td>
+</tr>
+<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Shopping_Cart_01.svg" width="20" height="20" alt="IconShoppingCart01" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconShoppingCart01</code>
 </td>
-</tr>
-<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Shopping_Cart_02.svg" width="20" height="20" alt="IconShoppingCart02" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconShoppingCart02</code>
@@ -1640,12 +1652,12 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Slider_01.svg" width="20" height="20" alt="IconSlider01" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSlider01</code>
 </td>
+</tr>
+<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Slider_02.svg" width="20" height="20" alt="IconSlider02" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSlider02</code>
 </td>
-</tr>
-<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Slider_03.svg" width="20" height="20" alt="IconSlider03" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSlider03</code>
@@ -1654,12 +1666,12 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Star.svg" width="20" height="20" alt="IconStar" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconStar</code>
 </td>
+</tr>
+<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Suitcase.svg" width="20" height="20" alt="IconSuitcase" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSuitcase</code>
 </td>
-</tr>
-<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Swicht_Left.svg" width="20" height="20" alt="IconSwichtLeft" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSwichtLeft</code>
@@ -1668,12 +1680,12 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Swicht_Right.svg" width="20" height="20" alt="IconSwichtRight" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconSwichtRight</code>
 </td>
+</tr>
+<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Tag.svg" width="20" height="20" alt="IconTag" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconTag</code>
 </td>
-</tr>
-<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Ticket_Voucher.svg" width="20" height="20" alt="IconTicketVoucher" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconTicketVoucher</code>
@@ -1682,12 +1694,12 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Trash_Empty.svg" width="20" height="20" alt="IconTrashEmpty" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconTrashEmpty</code>
 </td>
+</tr>
+<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Trash_Full.svg" width="20" height="20" alt="IconTrashFull" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconTrashFull</code>
 </td>
-</tr>
-<tr>
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Interface/Trending_Down.svg" width="20" height="20" alt="IconTrendingDown" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconTrendingDown</code>
@@ -1696,7 +1708,6 @@ La librería incluye más de 440 iconos organizados en categorías:
 <img src="cooliocns SVG/Interface/Trending_Up.svg" width="20" height="20" alt="IconTrendingUp" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconTrendingUp</code>
 </td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -2037,6 +2048,55 @@ La librería incluye más de 440 iconos organizados en categorías:
 <td style="padding: 8px; vertical-align: middle;">
 <img src="cooliocns SVG/Shape/Wavy.svg" width="20" height="20" alt="IconWavy" style="vertical-align: middle; margin-right: 8px;" />
 <code style="font-size: 0.85em;">IconWavy</code>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="social">Social (9 iconos)</h3>
+
+<table>
+<tbody>
+<tr>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Apple.svg" width="20" height="20" alt="IconApple" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconApple</code>
+</td>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Facebook.svg" width="20" height="20" alt="IconFacebook" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconFacebook</code>
+</td>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Google.svg" width="20" height="20" alt="IconGoogle" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconGoogle</code>
+</td>
+</tr>
+<tr>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Instagram.svg" width="20" height="20" alt="IconInstagram" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconInstagram</code>
+</td>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Linkedin.svg" width="20" height="20" alt="IconLinkedin" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconLinkedin</code>
+</td>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Telegram.svg" width="20" height="20" alt="IconTelegram" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconTelegram</code>
+</td>
+</tr>
+<tr>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Twitter.svg" width="20" height="20" alt="IconTwitter" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconTwitter</code>
+</td>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/Whatsapp.svg" width="20" height="20" alt="IconWhatsapp" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconWhatsapp</code>
+</td>
+<td style="padding: 8px; vertical-align: middle;">
+<img src="cooliocns SVG/Social/YouTube.svg" width="20" height="20" alt="IconYoutube" style="vertical-align: middle; margin-right: 8px;" />
+<code style="font-size: 0.85em;">IconYoutube</code>
 </td>
 </tr>
 </tbody>
@@ -2401,7 +2461,7 @@ La librería incluye más de 440 iconos organizados en categorías:
 </tbody>
 </table>
 
-**Total: 463 iconos**
+**Total: 473 iconos**
 
 
 ## 📖 Ejemplo completo
